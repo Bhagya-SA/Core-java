@@ -1,8 +1,8 @@
 class BlinKit {
 
 	public static double search(String foodName) {
-	
 	double price = 0.0; 
+	
 		if(foodName == "Bananas (Harichal/Robusta)") {
 			price = 49.0;
 			return price;
@@ -228,6 +228,295 @@ class BlinKit {
 			System.out.println("Couldn't find food item");
 		}
 		return price;
+	}
+	
+	public static double search(String foodName , int quantity) {
+		double price = 0.0
+		int quantity = 0;
+
+			if(foodName == "Bananas (Harichal/Robusta)") {
+			price = 49.0;
+			quantity = 1;
+			return price * quantity;
+		}
+		else if(foodName == "Onions") {
+			price = 39.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Potatoes") {
+			price = 29.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Tomatoes") {
+			price = 59.0;
+			quantity = 9;
+			return price * quantity;
+		}
+		else if(foodName == "Coconut") {
+			price = 19.0;
+			quantity = 8;
+			return price * quantity;
+		}
+		else if(foodName == "Green Chilli") {
+			price = 51.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Ginger") {
+			price = 52.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Garlic") {
+			price = 53.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Coriander Leaves") {
+			price = 41.0;
+			quantity = 2;
+			return price * quantity;
+		}
+		else if(foodName == "Curry Leaves") {
+			price = 42.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Lemon") {
+			price = 43.0;
+			quantity = 2;
+			return price * quantity; 
+		}
+		else if(foodName == "Cucumber") {
+			price = 52.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Capsicum") {
+			price = 55.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Carrot") {
+			price = 56.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Beans") {
+			price = 57.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Spinach") {
+			price = 61.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Broccoli") {
+			price = 78.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Mushrooms") {
+			price = 81.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Apple") {
+			price = 187.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Oranges") {
+			price = 82.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Pomegranate") {
+			price = 83.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Watermelon") {
+			price = 79.0;
+			quantity = 2;
+			return price * quantity;
+		}
+		else if(foodName == "Grapes") {
+			price = 63.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Mango") {
+			price = 167.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Pre-cut Fruit Pack") {
+			price = 77.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Amul Milk") {
+			price = 88.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Mother Dairy Curd") {
+			price = 66.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Britannia Bread") {
+			price = 44.0;
+			quantity = 2;
+			return price * quantity;
+		}
+		else if(foodName == "Amul Butter") {
+			price = 43.0;
+			quantity = 2;
+			return price * quantity;
+		}
+		else if(foodName == "Cheese Slices") {
+			price = 77.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Mozzarella Cheese") {
+			price = 88.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Yogurt") {
+			price = 99.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Fresh Cream") {
+			price = 123.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Condensed Milk") {
+			price = 77.0;
+			quantity = 8;
+			return price * quantity;
+		}
+		else if(foodName == "Sliced Pav") {
+			price = 84.0;
+			quantity = 9;
+			return price * quantity;
+		}
+		else if(foodName == "Bun") {
+			price = 54.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Cream Rolls") {
+			price = 65.0;
+			quantity = 3;
+			quantity = 19;
+			return price * quantity;
+		}
+		else if(foodName == "Sandwich Bread") {
+			price = 66.0;
+			quantity = 8;
+			return price * quantity;
+		}
+		else if(foodName == "Lay’s India’s Magic Masala") {
+			price = 69.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Kurkure Masala Munch") {
+			price = 45.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Haldiram's Aloo Bhujia") {
+			price = 56.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Haldiram's Bhujia Sev") {
+			price = 67.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Haldiram's Punjabi Tadka") {
+			price = 78.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Bikano Navratan Mixture") {
+			price = 121.0;
+			quantity = 4;
+			return price * quantity;
+		}
+		else if(foodName == "Pringles") {
+			price = 87.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Bingo! Mad Angles") {
+			price = 99.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		else if(foodName == "Kettle Studio Chips") {
+			price = 89.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Cornitos Nachos") {
+			price = 189.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Parle-G Biscuits") {
+			price = 88.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Britannia Good Day") {
+			price = 87.0;
+			quantity = 7;
+			return price * quantity;
+		}
+		else if(foodName == "Oreo Cookies") {
+			price = 76.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Hide & Seek Chocolate Chips") {
+			price = 85.0;
+			quantity = 5;
+			return price * quantity;
+		}
+		else if(foodName == "Marie Gold Biscuits") {
+			price = 94.0;
+			quantity = 6;
+			return price * quantity;
+		}
+		else if(foodName == "Britannia NutriChoice Digestive") {
+			price = 83.0;
+			quantity = 8;
+			return price * quantity;
+		}
+		else if(foodName == "Trail Mix") {
+			price = 72.0;
+			quantity = 3;
+			return price * quantity;
+		}
+		
+		else {
+			System.out.println("Couldn't find food item");
+		}
+		return price;
+	}
+
 	}
 
 }
