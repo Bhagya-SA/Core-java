@@ -231,12 +231,12 @@ class BlinKit {
 	}
 	
 	public static double search(String foodName , int quantity) {
-		double price = 0.0
-		int quantity = 0;
+		double price = 0.0;
+		quantity = 0;
 
 			if(foodName == "Bananas (Harichal/Robusta)") {
 			price = 49.0;
-			quantity = 1;
+			quantity = 2;
 			return price * quantity;
 		}
 		else if(foodName == "Onions") {
@@ -417,7 +417,6 @@ class BlinKit {
 		else if(foodName == "Cream Rolls") {
 			price = 65.0;
 			quantity = 3;
-			quantity = 19;
 			return price * quantity;
 		}
 		else if(foodName == "Sandwich Bread") {
@@ -517,6 +516,5 @@ class BlinKit {
 		return price;
 	}
 
-	}
 
 }
