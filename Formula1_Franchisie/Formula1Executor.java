@@ -2,7 +2,7 @@ class Formula1Executor {
 
 	public static void main(String[] ids) {
 
-		Formula1 formula1 = new Formula1();
+		/*Formula1 formula1 = new Formula1();
 		formula1.id = 1;
 		formula1.driverName = "Ram";
 		formula1.carNumber = "GR-4562";
@@ -259,7 +259,89 @@ class Formula1Executor {
 		franchisie20.franchisieName = "Legends";
 		franchisie20.country = "UK";
 		formula20.franchisie = franchisie20;
-		formula20.displayFomula1Info();
+		formula20.displayFomula1Info();*/
+
+		Franchisie franchisie1 = new Franchisie(6678, "Kiros", "Russia");
+        Formula1 formula1 = new Formula1(1, "Ram", "GR-4562", "Warriors", franchisie1);
+        formula1.displayFomula1Info();
+
+        Franchisie franchisie2 = new Franchisie(6679, "Falcons", "USA");
+        Formula1 formula2 = new Formula1(2, "John", "GR-4563", "SpeedStars", franchisie2);
+        formula2.displayFomula1Info();
+
+        Franchisie franchisie3 = new Franchisie(6680, "Blazers", "India");
+        Formula1 formula3 = new Formula1(3, "Arjun", "GR-4564", "Thunder", franchisie3);
+        formula3.displayFomula1Info();
+
+        Franchisie franchisie4 = new Franchisie(6681, "Titans", "UK");
+        Formula1 formula4 = new Formula1(4, "David", "GR-4565", "Storm", franchisie4);
+        formula4.displayFomula1Info();
+
+        Franchisie franchisie5 = new Franchisie(6682, "Kings", "Australia");
+        Formula1 formula5 = new Formula1(5, "Ravi", "GR-4566", "Racers", franchisie5);
+        formula5.displayFomula1Info();
+
+        Franchisie franchisie6 = new Franchisie(6683, "Dragons", "China");
+        Formula1 formula6 = new Formula1(6, "Alex", "GR-4567", "Velocity", franchisie6);
+        formula6.displayFomula1Info();
+
+        Franchisie franchisie7 = new Franchisie(6684, "Riders", "Germany");
+        Formula1 formula7 = new Formula1(7, "Kiran", "GR-4568", "Blaze", franchisie7);
+        formula7.displayFomula1Info();
+
+        Franchisie franchisie8 = new Franchisie(6685, "Stormers", "France");
+        Formula1 formula8 = new Formula1(8, "Leo", "GR-4569", "Turbo", franchisie8);
+        formula8.displayFomula1Info();
+
+        Franchisie franchisie9 = new Franchisie(6686, "Panthers", "Canada");
+        Formula1 formula9 = new Formula1(9, "Rohan", "GR-4570", "SpeedForce", franchisie9);
+        formula9.displayFomula1Info();
+
+        Franchisie franchisie10 = new Franchisie(6687, "Warlocks", "Italy");
+        Formula1 formula10 = new Formula1(10, "Sam", "GR-4571", "Nitro", franchisie10);
+        formula10.displayFomula1Info();
+
+        Franchisie franchisie11 = new Franchisie(6688, "Giants", "India");
+        Formula1 formula11 = new Formula1(11, "Amit", "GR-4572", "Rapid", franchisie11);
+        formula11.displayFomula1Info();
+
+        Franchisie franchisie12 = new Franchisie(6689, "FalconX", "USA");
+        Formula1 formula12 = new Formula1(12, "Chris", "GR-4573", "Lightning", franchisie12);
+        formula12.displayFomula1Info();
+
+        Franchisie franchisie13 = new Franchisie(6690, "TitansX", "Spain");
+        Formula1 formula13 = new Formula1(13, "Vikram", "GR-4574", "Rocket", franchisie13);
+        formula13.displayFomula1Info();
+
+        Franchisie franchisie14 = new Franchisie(6691, "Hawks", "Brazil");
+        Formula1 formula14 = new Formula1(14, "Rahul", "GR-4575", "Blizzard", franchisie14);
+        formula14.displayFomula1Info();
+
+        Franchisie franchisie15 = new Franchisie(6692, "Cyclones", "Mexico");
+        Formula1 formula15 = new Formula1(15, "Daniel", "GR-4576", "Flash", franchisie15);
+        formula15.displayFomula1Info();
+
+        Franchisie franchisie16 = new Franchisie(6693, "Raptors", "India");
+        Formula1 formula16 = new Formula1(16, "Karthik", "GR-4577", "Inferno", franchisie16);
+        formula16.displayFomula1Info();
+
+        Franchisie franchisie17 = new Franchisie(6694, "Phoenix", "Japan");
+        Formula1 formula17 = new Formula1(17, "Victor", "GR-4578", "Vortex", franchisie17);
+        formula17.displayFomula1Info();
+
+        Franchisie franchisie18 = new Franchisie(6695, "Gladiators", "India");
+        Formula1 formula18 = new Formula1(18, "Surya", "GR-4579", "StormX", franchisie18);
+        formula18.displayFomula1Info();
+
+        Franchisie franchisie19 = new Franchisie(6696, "Chargers", "Germany");
+        Formula1 formula19 = new Formula1(19, "Nikhil", "GR-4580", "RapidX", franchisie19);
+        formula19.displayFomula1Info();
+
+        Franchisie franchisie20 = new Franchisie(6697, "Legends", "UK");
+        Formula1 formula20 = new Formula1(20, "Aditya", "GR-4581", "SpeedX", franchisie20);
+        formula20.displayFomula1Info();
+
+		
 
 	}
 }
