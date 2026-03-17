@@ -5,6 +5,14 @@ class Mall {
 	String location;
 	int totalFloors;
 	Shop shop;
+
+	public Mall(int mallId, String mallName, String location, int totalFloors, Shop shop) {
+        this.mallId = mallId;
+        this.mallName = mallName;
+        this.location = location;
+        this.totalFloors = totalFloors;
+        this.shop = shop;
+    }
 	
 	public void displayMallInfo() {
 	
