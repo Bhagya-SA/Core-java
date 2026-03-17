@@ -2,7 +2,7 @@ class MallExecutor {
 
 	public static void main(String[] malls) {
 
-		Mall mall1 = new Mall();
+		/*Mall mall1 = new Mall();
 		mall1.mallId = 1;
 		mall1.mallName = "Orion";
 		mall1.location = "Yeshwanthapura, Bangalore";
@@ -259,7 +259,87 @@ class MallExecutor {
 		shop20.shopName = "Croma";
 		shop20.shopType = "Electronics";
 		mall20.shop = shop20;
-		mall20.displayMallInfo();
+		mall20.displayMallInfo();*/
+
+		 Shop shop1 = new Shop(101, "Reliance", "Electronics");
+        Mall mall1 = new Mall(1, "Orion", "Yeshwanthapura, Bangalore", 5, shop1);
+        mall1.displayMallInfo();
+
+        Shop shop2 = new Shop(102, "Pantaloons", "Clothing");
+        Mall mall2 = new Mall(2, "Garuda", "Magrath Road, Bangalore", 6, shop2);
+        mall2.displayMallInfo();
+
+        Shop shop3 = new Shop(103, "Levis", "Clothing");
+        Mall mall3 = new Mall(3, "Forum", "Koramangala, Bangalore", 7, shop3);
+        mall3.displayMallInfo();
+
+        Shop shop4 = new Shop(104, "Rolex", "Luxury Watches");
+        Mall mall4 = new Mall(4, "UB City", "Vittal Mallya Road, Bangalore", 5, shop4);
+        mall4.displayMallInfo();
+
+        Shop shop5 = new Shop(105, "Nike", "Sportswear");
+        Mall mall5 = new Mall(5, "Gopalan Mall", "Bannerghatta Road, Bangalore", 6, shop5);
+        mall5.displayMallInfo();
+
+        Shop shop6 = new Shop(106, "Adidas", "Sportswear");
+        Mall mall6 = new Mall(6, "Esteem Mall", "Hebbal, Bangalore", 4, shop6);
+        mall6.displayMallInfo();
+
+        Shop shop7 = new Shop(107, "Zara", "Clothing");
+        Mall mall7 = new Mall(7, "Phoenix Marketcity", "Whitefield, Bangalore", 8, shop7);
+        mall7.displayMallInfo();
+
+        Shop shop8 = new Shop(108, "H&M", "Fashion");
+        Mall mall8 = new Mall(8, "VR Mall", "Whitefield, Bangalore", 7, shop8);
+        mall8.displayMallInfo();
+
+        Shop shop9 = new Shop(109, "Bata", "Footwear");
+        Mall mall9 = new Mall(9, "GT World Mall", "Magadi Road, Bangalore", 6, shop9);
+        mall9.displayMallInfo();
+
+        Shop shop10 = new Shop(110, "Apple Store", "Electronics");
+        Mall mall10 = new Mall(10, "Central Mall", "Bellandur, Bangalore", 5, shop10);
+        mall10.displayMallInfo();
+
+        Shop shop11 = new Shop(111, "Samsung", "Electronics");
+        Mall mall11 = new Mall(11, "Mantri Square", "Malleshwaram, Bangalore", 7, shop11);
+        mall11.displayMallInfo();
+
+        Shop shop12 = new Shop(112, "Puma", "Sportswear");
+        Mall mall12 = new Mall(12, "Elements Mall", "Thanisandra, Bangalore", 5, shop12);
+        mall12.displayMallInfo();
+
+        Shop shop13 = new Shop(113, "Woodland", "Footwear");
+        Mall mall13 = new Mall(13, "Garuda Swagath", "Jayanagar, Bangalore", 4, shop13);
+        mall13.displayMallInfo();
+
+        Shop shop14 = new Shop(114, "Marks & Spencer", "Clothing");
+        Mall mall14 = new Mall(14, "Lulu Mall", "Rajajinagar, Bangalore", 8, shop14);
+        mall14.displayMallInfo();
+
+        Shop shop15 = new Shop(115, "Reebok", "Sportswear");
+        Mall mall15 = new Mall(15, "Orion East", "Banaswadi, Bangalore", 6, shop15);
+        mall15.displayMallInfo();
+
+        Shop shop16 = new Shop(116, "Titan", "Watches");
+        Mall mall16 = new Mall(16, "Soul Space Arena", "Mahadevapura, Bangalore", 5, shop16);
+        mall16.displayMallInfo();
+
+        Shop shop17 = new Shop(117, "FabIndia", "Clothing");
+        Mall mall17 = new Mall(17, "Bhartiya Mall", "Thanisandra, Bangalore", 7, shop17);
+        mall17.displayMallInfo();
+
+        Shop shop18 = new Shop(118, "KFC", "Food");
+        Mall mall18 = new Mall(18, "Sigma Mall", "Cunningham Road, Bangalore", 5, shop18);
+        mall18.displayMallInfo();
+
+        Shop shop19 = new Shop(119, "Dominos", "Food");
+        Mall mall19 = new Mall(19, "Royal Meenakshi Mall", "Bannerghatta Road, Bangalore", 6, shop19);
+        mall19.displayMallInfo();
+
+        Shop shop20 = new Shop(120, "Croma", "Electronics");
+        Mall mall20 = new Mall(20, "ETA Mall", "Binny Pete, Bangalore", 5, shop20);
+        mall20.displayMallInfo();
 
 	}
 }
