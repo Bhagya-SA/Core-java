@@ -1,6 +1,6 @@
 class PlaystoreExecutor {
     public static void main(String[] args) {
-        Playstore store1 = new Playstore();
+       /* Playstore store1 = new Playstore();
         store1.storeId = 1;
         store1.storeName = "Google Playstore";
         store1.location = "Global";
@@ -238,6 +238,86 @@ class PlaystoreExecutor {
         app20.appName = "TikTok";
         app20.appCategory = "Social Media";
         store20.application = app20;
+        store20.displayStoreInfo(); */
+
+        Application app1 = new Application(101, "WhatsApp", "Messaging");
+        Playstore store1 = new Playstore(1, "Google Playstore", "Global", 1000000, app1);
+        store1.displayStoreInfo();
+
+        Application app2 = new Application(102, "Instagram", "Social Media");
+        Playstore store2 = new Playstore(2, "Google Playstore", "Global", 950000, app2);
+        store2.displayStoreInfo();
+
+        Application app3 = new Application(103, "Spotify", "Music");
+        Playstore store3 = new Playstore(3, "Google Playstore", "Global", 900000, app3);
+        store3.displayStoreInfo();
+
+        Application app4 = new Application(104, "YouTube", "Video Streaming");
+        Playstore store4 = new Playstore(4, "Google Playstore", "Global", 850000, app4);
+        store4.displayStoreInfo();
+
+        Application app5 = new Application(105, "Snapchat", "Social Media");
+        Playstore store5 = new Playstore(5, "Google Playstore", "Global", 800000, app5);
+        store5.displayStoreInfo();
+
+        Application app6 = new Application(106, "Zoom", "Communication");
+        Playstore store6 = new Playstore(6, "Google Playstore", "Global", 750000, app6);
+        store6.displayStoreInfo();
+
+        Application app7 = new Application(107, "Gmail", "Email");
+        Playstore store7 = new Playstore(7, "Google Playstore", "Global", 700000, app7);
+        store7.displayStoreInfo();
+
+        Application app8 = new Application(108, "Netflix", "Video Streaming");
+        Playstore store8 = new Playstore(8, "Google Playstore", "Global", 650000, app8);
+        store8.displayStoreInfo();
+
+        Application app9 = new Application(109, "Amazon", "Shopping");
+        Playstore store9 = new Playstore(9, "Google Playstore", "Global", 600000, app9);
+        store9.displayStoreInfo();
+
+        Application app10 = new Application(110, "Flipkart", "Shopping");
+        Playstore store10 = new Playstore(10, "Google Playstore", "Global", 550000, app10);
+        store10.displayStoreInfo();
+
+        Application app11 = new Application(111, "Microsoft Teams", "Communication");
+        Playstore store11 = new Playstore(11, "Google Playstore", "Global", 500000, app11);
+        store11.displayStoreInfo();
+
+        Application app12 = new Application(112, "Twitter", "Social Media");
+        Playstore store12 = new Playstore(12, "Google Playstore", "Global", 480000, app12);
+        store12.displayStoreInfo();
+
+        Application app13 = new Application(113, "LinkedIn", "Professional Networking");
+        Playstore store13 = new Playstore(13, "Google Playstore", "Global", 460000, app13);
+        store13.displayStoreInfo();
+
+        Application app14 = new Application(114, "Pinterest", "Social Media");
+        Playstore store14 = new Playstore(14, "Google Playstore", "Global", 440000, app14);
+        store14.displayStoreInfo();
+
+        Application app15 = new Application(115, "Uber", "Transportation");
+        Playstore store15 = new Playstore(15, "Google Playstore", "Global", 420000, app15);
+        store15.displayStoreInfo();
+
+        Application app16 = new Application(116, "Airbnb", "Travel");
+        Playstore store16 = new Playstore(16, "Google Playstore", "Global", 400000, app16);
+        store16.displayStoreInfo();
+
+        Application app17 = new Application(117, "Snapseed", "Photography");
+        Playstore store17 = new Playstore(17, "Google Playstore", "Global", 380000, app17);
+        store17.displayStoreInfo();
+
+        Application app18 = new Application(118, "Canva", "Design");
+        Playstore store18 = new Playstore(18, "Google Playstore", "Global", 360000, app18);
+        store18.displayStoreInfo();
+
+        Application app19 = new Application(119, "Disney+", "Video Streaming");
+        Playstore store19 = new Playstore(19, "Google Playstore", "Global", 340000, app19);
+        store19.displayStoreInfo();
+
+        Application app20 = new Application(120, "TikTok", "Social Media");
+        Playstore store20 = new Playstore(20, "Google Playstore", "Global", 320000, app20);
         store20.displayStoreInfo();
     }
 }
