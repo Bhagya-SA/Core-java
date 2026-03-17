@@ -1,7 +1,7 @@
 class IPLExecutor {
     public static void main(String[] ipl) {
         
-        Team team1 = new Team();
+        /*Team team1 = new Team();
         team1.teamId = 1;
         team1.teamName = "Mumbai Indians";
         team1.location = "Mumbai";
@@ -257,6 +257,86 @@ class IPLExecutor {
         player20.playerName = "Kane Williamson";
         player20.playerRole = "Batsman";
         team20.player = player20;
-        team20.displayTeamInfo();
+        team20.displayTeamInfo(); */
+
+         Player p1 = new Player(101, "Rohit Sharma", "Batsman");
+        Team t1 = new Team(1, "Mumbai Indians", "Mumbai", 200, p1);
+        t1.displayTeamInfo();
+
+        Player p2 = new Player(102, "MS Dhoni", "Wicketkeeper-Batsman");
+        Team t2 = new Team(2, "Chennai Super Kings", "Chennai", 210, p2);
+        t2.displayTeamInfo();
+
+        Player p3 = new Player(103, "Virat Kohli", "Batsman");
+        Team t3 = new Team(3, "Royal Challengers Bangalore", "Bangalore", 190, p3);
+        t3.displayTeamInfo();
+
+        Player p4 = new Player(104, "Rishabh Pant", "Wicketkeeper-Batsman");
+        Team t4 = new Team(4, "Delhi Capitals", "Delhi", 180, p4);
+        t4.displayTeamInfo();
+
+        Player p5 = new Player(105, "Shreyas Iyer", "Batsman");
+        Team t5 = new Team(5, "Kolkata Knight Riders", "Kolkata", 170, p5);
+        t5.displayTeamInfo();
+
+        Player p6 = new Player(106, "David Warner", "Batsman");
+        Team t6 = new Team(6, "Sunrisers Hyderabad", "Hyderabad", 160, p6);
+        t6.displayTeamInfo();
+
+        Player p7 = new Player(107, "Sanju Samson", "Wicketkeeper-Batsman");
+        Team t7 = new Team(7, "Rajasthan Royals", "Jaipur", 150, p7);
+        t7.displayTeamInfo();
+
+        Player p8 = new Player(108, "Shikhar Dhawan", "Batsman");
+        Team t8 = new Team(8, "Punjab Kings", "Mohali", 140, p8);
+        t8.displayTeamInfo();
+
+        Player p9 = new Player(109, "Hardik Pandya", "All-Rounder");
+        Team t9 = new Team(9, "Gujarat Titans", "Ahmedabad", 20, p9);
+        t9.displayTeamInfo();
+
+        Player p10 = new Player(110, "KL Rahul", "Batsman");
+        Team t10 = new Team(10, "Lucknow Super Giants", "Lucknow", 10, p10);
+        t10.displayTeamInfo();
+
+        Player p11 = new Player(111, "Suryakumar Yadav", "Batsman");
+        Team t11 = new Team(11, "Mumbai Indians-2", "Mumbai", 200, p11);
+        t11.displayTeamInfo();
+
+        Player p12 = new Player(112, "Ravindra Jadeja", "All-Rounder");
+        Team t12 = new Team(12, "Chennai Super Kings-2", "Chennai", 210, p12);
+        t12.displayTeamInfo();
+
+        Player p13 = new Player(113, "Faf du Plessis", "Batsman");
+        Team t13 = new Team(13, "RCB-2", "Bangalore", 190, p13);
+        t13.displayTeamInfo();
+
+        Player p14 = new Player(114, "Prithvi Shaw", "Batsman");
+        Team t14 = new Team(14, "Delhi Capitals-2", "Delhi", 180, p14);
+        t14.displayTeamInfo();
+
+        Player p15 = new Player(115, "Andre Russell", "All-Rounder");
+        Team t15 = new Team(15, "KKR-2", "Kolkata", 170, p15);
+        t15.displayTeamInfo();
+
+        Player p16 = new Player(116, "Bhuvneshwar Kumar", "Bowler");
+        Team t16 = new Team(16, "Sunrisers-2", "Hyderabad", 160, p16);
+        t16.displayTeamInfo();
+
+        Player p17 = new Player(117, "Jos Buttler", "Batsman");
+        Team t17 = new Team(17, "Rajasthan Royals-2", "Jaipur", 150, p17);
+        t17.displayTeamInfo();
+
+        Player p18 = new Player(118, "Shreyas Gopal", "Bowler");
+        Team t18 = new Team(18, "Punjab Kings-2", "Mohali", 140, p18);
+        t18.displayTeamInfo();
+
+        Player p19 = new Player(119, "Rashid Khan", "Bowler");
+        Team t19 = new Team(19, "Gujarat Titans-2", "Ahmedabad", 20, p19);
+        t19.displayTeamInfo();
+
+        Player p20 = new Player(120, "Kane Williamson", "Batsman");
+        Team t20 = new Team(20, "Lucknow Super Giants-2", "Lucknow", 10, p20);
+        t20.displayTeamInfo();
     }
 }
