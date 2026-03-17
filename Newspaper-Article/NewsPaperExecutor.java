@@ -2,7 +2,7 @@ class NewsPaperExecutor {
 
     public static void main(String[] newspaper) {
 
-        NewsPaper n1 = new NewsPaper();
+        /*NewsPaper n1 = new NewsPaper();
         n1.newsPaperId = 101;
         n1.newsPaperName = "The Hindu";
         n1.language = "English";
@@ -220,6 +220,86 @@ class NewsPaperExecutor {
         a20.title = "Cyber Security Trends";
         a20.authorName = "Anil";
         n20.article = a20;
+        n20.displayNewsPaperInfo(); */
+        Article a1 = new Article(201, "Global Warming Effects", "Rahul");
+        NewsPaper n1 = new NewsPaper(101, "The Hindu", "English", a1);
+        n1.displayNewsPaperInfo();
+
+        Article a2 = new Article(202, "AI in Healthcare", "Anita");
+        NewsPaper n2 = new NewsPaper(102, "Times of India", "English", a2);
+        n2.displayNewsPaperInfo();
+
+        Article a3 = new Article(203, "Indian Economy Growth", "Kiran");
+        NewsPaper n3 = new NewsPaper(103, "Deccan Herald", "English", a3);
+        n3.displayNewsPaperInfo();
+
+        Article a4 = new Article(204, "Cricket World Cup", "Sneha");
+        NewsPaper n4 = new NewsPaper(104, "Indian Express", "English", a4);
+        n4.displayNewsPaperInfo();
+
+        Article a5 = new Article(205, "Startup Culture", "Arjun");
+        NewsPaper n5 = new NewsPaper(105, "Economic Times", "English", a5);
+        n5.displayNewsPaperInfo();
+
+        Article a6 = new Article(206, "Education Policy", "Meera");
+        NewsPaper n6 = new NewsPaper(106, "The Hindu", "English", a6);
+        n6.displayNewsPaperInfo();
+
+        Article a7 = new Article(207, "Olympics Highlights", "Ravi");
+        NewsPaper n7 = new NewsPaper(107, "Times of India", "English", a7);
+        n7.displayNewsPaperInfo();
+
+        Article a8 = new Article(208, "Technology Trends", "Priya");
+        NewsPaper n8 = new NewsPaper(108, "Deccan Herald", "English", a8);
+        n8.displayNewsPaperInfo();
+
+        Article a9 = new Article(209, "Cyber Security", "Manoj");
+        NewsPaper n9 = new NewsPaper(109, "Indian Express", "English", a9);
+        n9.displayNewsPaperInfo();
+
+        Article a10 = new Article(210, "Business Growth", "Pooja");
+        NewsPaper n10 = new NewsPaper(110, "Economic Times", "English", a10);
+        n10.displayNewsPaperInfo();
+
+        Article a11 = new Article(211, "Space Research", "Sanjay");
+        NewsPaper n11 = new NewsPaper(111, "The Hindu", "English", a11);
+        n11.displayNewsPaperInfo();
+
+        Article a12 = new Article(212, "Medical Research", "Divya");
+        NewsPaper n12 = new NewsPaper(112, "Times of India", "English", a12);
+        n12.displayNewsPaperInfo();
+
+        Article a13 = new Article(213, "Election Updates", "Akash");
+        NewsPaper n13 = new NewsPaper(113, "Deccan Herald", "English", a13);
+        n13.displayNewsPaperInfo();
+
+        Article a14 = new Article(214, "Renewable Energy", "Lakshmi");
+        NewsPaper n14 = new NewsPaper(114, "Indian Express", "English", a14);
+        n14.displayNewsPaperInfo();
+
+        Article a15 = new Article(215, "Stock Market Analysis", "Rohit");
+        NewsPaper n15 = new NewsPaper(115, "Economic Times", "English", a15);
+        n15.displayNewsPaperInfo();
+
+        Article a16 = new Article(216, "Digital India", "Neha");
+        NewsPaper n16 = new NewsPaper(116, "The Hindu", "English", a16);
+        n16.displayNewsPaperInfo();
+
+        Article a17 = new Article(217, "Blockchain Technology", "Karthik");
+        NewsPaper n17 = new NewsPaper(117, "Times of India", "English", a17);
+        n17.displayNewsPaperInfo();
+
+        Article a18 = new Article(218, "Network Security", "Deepa");
+        NewsPaper n18 = new NewsPaper(118, "Deccan Herald", "English", a18);
+        n18.displayNewsPaperInfo();
+
+        Article a19 = new Article(219, "Game Development", "Vikram");
+        NewsPaper n19 = new NewsPaper(119, "Indian Express", "English", a19);
+        n19.displayNewsPaperInfo();
+
+        Article a20 = new Article(220, "Cyber Security Trends", "Anil");
+        NewsPaper n20 = new NewsPaper(120, "Economic Times", "English", a20);
         n20.displayNewsPaperInfo();
+    
     }
 }
