@@ -5,6 +5,14 @@ class Dance {
 	String originCountry;
 	String danceType;
 	Form form;
+
+	public Dance(int danceId, String danceName, String originCountry, String danceType, Form form) {
+        this.danceId = danceId;
+        this.danceName = danceName;
+        this.originCountry = originCountry;
+        this.danceType = danceType;
+        this.form = form;
+    }
 	
 	public void displayDanceInfo() {
 	
