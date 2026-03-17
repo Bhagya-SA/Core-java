@@ -4,6 +4,13 @@ class BigDaddy {
 	String name;
 	String reputation;
 	Cassino cassino;
+
+	public BigDaddy(int id , String name , String reputation , cassino) {
+		this.id = id;
+		this.name = name;
+		this.reputation;
+		this.cassino = cassino;
+	}
 	
 	public void displayBigDaddyInfo() {
 	
