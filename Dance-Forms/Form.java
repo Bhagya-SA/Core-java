@@ -3,6 +3,12 @@ class Form {
 	int formId;
 	String formName;
 	String style;
+
+	 public Form(int formId, String formName, String style) {
+        this.formId = formId;
+        this.formName = formName;
+        this.style = style;
+    }
 	
 	public void displayFormInfo() {
 	
