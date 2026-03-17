@@ -4,6 +4,12 @@ class Article {
     String title;
     String authorName;
 
+    public Article(int articleId, String title, String authorName) {
+        this.articleId = articleId;
+        this.title = title;
+        this.authorName = authorName;
+    }
+
     public void displayArticleInfo() {
         System.out.println("Article Id : " + this.articleId);
         System.out.println("Title : " + this.title);
