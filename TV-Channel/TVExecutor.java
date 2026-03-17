@@ -2,7 +2,7 @@ class TVExecutor {
 
     public static void main(String[] television) {
 
-        TV tv1 = new TV();
+        /*TV tv1 = new TV();
         tv1.tvId = 101;
         tv1.tvName = "Global News";
         tv1.country = "USA";
@@ -220,6 +220,89 @@ class TVExecutor {
         ch20.channelName = "VH1";
         ch20.channelType = "Music";
         tv20.channel = ch20;
+        tv20.displayTVInfo(); */
+
+        Channel ch1 = new Channel(201, "CNN", "News");
+        TV tv1 = new TV(101, "Global News", "USA", ch1);
+        tv1.displayTVInfo();
+
+        Channel ch2 = new Channel(202, "Sky Sports", "Sports");
+        TV tv2 = new TV(102, "Sports Arena", "UK", ch2);
+        tv2.displayTVInfo();
+
+        Channel ch3 = new Channel(203, "Star Plus", "Entertainment");
+        TV tv3 = new TV(103, "Entertainment Hub", "India", ch3);
+        tv3.displayTVInfo();
+
+        Channel ch4 = new Channel(204, "Cartoon Network", "Kids");
+        TV tv4 = new TV(104, "Kids World", "USA", ch4);
+        tv4.displayTVInfo();
+
+        Channel ch5 = new Channel(205, "MTV", "Music");
+        TV tv5 = new TV(105, "Music Mania", "UK", ch5);
+        tv5.displayTVInfo();
+
+        Channel ch6 = new Channel(206, "Discovery", "Documentary");
+        TV tv6 = new TV(106, "Discovery Zone", "USA", ch6);
+        tv6.displayTVInfo();
+
+        Channel ch7 = new Channel(207, "Sony Max", "Movies");
+        TV tv7 = new TV(107, "Movie Time", "India", ch7);
+        tv7.displayTVInfo();
+
+        Channel ch8 = new Channel(208, "Nat Geo", "Travel");
+        TV tv8 = new TV(108, "Travel Tales", "Australia", ch8);
+        tv8.displayTVInfo();
+
+        Channel ch9 = new Channel(209, "History Channel", "History");
+        TV tv9 = new TV(109, "History Now", "UK", ch9);
+        tv9.displayTVInfo();
+
+        Channel ch10 = new Channel(210, "Food Network", "Cooking");
+        TV tv10 = new TV(110, "Foodies TV", "USA", ch10);
+        tv10.displayTVInfo();
+
+        Channel ch11 = new Channel(211, "Animal Planet", "Wildlife");
+        TV tv11 = new TV(111, "Animal Planet", "USA", ch11);
+        tv11.displayTVInfo();
+
+        Channel ch12 = new Channel(212, "Tech Channel", "Technology");
+        TV tv12 = new TV(112, "Tech Today", "India", ch12);
+        tv12.displayTVInfo();
+
+        Channel ch13 = new Channel(213, "Fashion TV", "Fashion");
+        TV tv13 = new TV(113, "Fashion TV", "France", ch13);
+        tv13.displayTVInfo();
+
+        Channel ch14 = new Channel(214, "Investigation Discovery", "Crime");
+        TV tv14 = new TV(114, "Crime Watch", "USA", ch14);
+        tv14.displayTVInfo();
+
+        Channel ch15 = new Channel(215, "TSN", "Sports");
+        TV tv15 = new TV(115, "Sports Live", "Canada", ch15);
+        tv15.displayTVInfo();
+
+        Channel ch16 = new Channel(216, "Pogo TV", "Kids");
+        TV tv16 = new TV(116, "Kids Planet", "India", ch16);
+        tv16.displayTVInfo();
+
+        Channel ch17 = new Channel(217, "BBC Films", "Movies");
+        TV tv17 = new TV(117, "Movie Mania", "UK", ch17);
+        tv17.displayTVInfo();
+
+        Channel ch18 = new Channel(218, "Discovery Kids", "Kids");
+        TV tv18 = new TV(118, "Discovery Kids", "USA", ch18);
+        tv18.displayTVInfo();
+
+        Channel ch19 = new Channel(219, "History TV18", "History");
+        TV tv19 = new TV(119, "History Channel", "India", ch19);
+        tv19.displayTVInfo();
+
+        Channel ch20 = new Channel(220, "VH1", "Music");
+        TV tv20 = new TV(120, "Music World", "USA", ch20);
         tv20.displayTVInfo();
+    
+
+        
     }
 }
