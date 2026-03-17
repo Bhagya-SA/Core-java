@@ -3,7 +3,7 @@ class LenskartExecutor {
     public static void main(String[] spect) {
 
         
-        Lenskart lens1 = new Lenskart();
+        /*Lenskart lens1 = new Lenskart();
         lens1.id = 1;
         lens1.power = +1.5;
         lens1.material = "Polycarbonate";
@@ -279,7 +279,87 @@ class LenskartExecutor {
         frame20.frameSize = "Large";
         frame20.frameColor = "Blue";
         lens20.frame = frame20;
-        lens20.displayLenskartInfo();
+        lens20.displayLenskartInfo();*/
+
+        Frame f1 = new Frame(101, "Metal", "Medium", "Black");
+        Lenskart l1 = new Lenskart(1, 1.5, "Polycarbonate", "Single Vision", f1);
+        l1.displayLenskartInfo();
+
+        Frame f2 = new Frame(102, "Plastic", "Large", "Blue");
+        Lenskart l2 = new Lenskart(2, -2.0, "Plastic", "Bifocal", f2);
+        l2.displayLenskartInfo();
+
+        Frame f3 = new Frame(103, "Titanium", "Small", "Silver");
+        Lenskart l3 = new Lenskart(3, 2.25, "Glass", "Progressive", f3);
+        l3.displayLenskartInfo();
+
+        Frame f4 = new Frame(104, "Metal", "Medium", "Brown");
+        Lenskart l4 = new Lenskart(4, -1.75, "Polycarbonate", "Single Vision", f4);
+        l4.displayLenskartInfo();
+
+        Frame f5 = new Frame(105, "Plastic", "Small", "Red");
+        Lenskart l5 = new Lenskart(5, 0.75, "Plastic", "Bifocal", f5);
+        l5.displayLenskartInfo();
+
+        Frame f6 = new Frame(106, "Titanium", "Large", "Gold");
+        Lenskart l6 = new Lenskart(6, -3.0, "Glass", "Progressive", f6);
+        l6.displayLenskartInfo();
+
+        Frame f7 = new Frame(107, "Metal", "Medium", "Green");
+        Lenskart l7 = new Lenskart(7, 1.25, "Polycarbonate", "Single Vision", f7);
+        l7.displayLenskartInfo();
+
+        Frame f8 = new Frame(108, "Plastic", "Large", "Gray");
+        Lenskart l8 = new Lenskart(8, -2.5, "Plastic", "Bifocal", f8);
+        l8.displayLenskartInfo();
+
+        Frame f9 = new Frame(109, "Titanium", "Medium", "Purple");
+        Lenskart l9 = new Lenskart(9, 3.0, "Glass", "Progressive", f9);
+        l9.displayLenskartInfo();
+
+        Frame f10 = new Frame(110, "Metal", "Small", "Black");
+        Lenskart l10 = new Lenskart(10, -1.0, "Polycarbonate", "Single Vision", f10);
+        l10.displayLenskartInfo();
+
+        Frame f11 = new Frame(111, "Plastic", "Medium", "Blue");
+        Lenskart l11 = new Lenskart(11, 2.0, "Plastic", "Bifocal", f11);
+        l11.displayLenskartInfo();
+
+        Frame f12 = new Frame(112, "Titanium", "Large", "Silver");
+        Lenskart l12 = new Lenskart(12, -2.25, "Glass", "Progressive", f12);
+        l12.displayLenskartInfo();
+
+        Frame f13 = new Frame(113, "Metal", "Small", "Brown");
+        Lenskart l13 = new Lenskart(13, 0.5, "Polycarbonate", "Single Vision", f13);
+        l13.displayLenskartInfo();
+
+        Frame f14 = new Frame(114, "Plastic", "Medium", "Red");
+        Lenskart l14 = new Lenskart(14, -3.5, "Plastic", "Bifocal", f14);
+        l14.displayLenskartInfo();
+
+        Frame f15 = new Frame(115, "Titanium", "Large", "Gold");
+        Lenskart l15 = new Lenskart(15, 1.75, "Glass", "Progressive", f15);
+        l15.displayLenskartInfo();
+
+        Frame f16 = new Frame(116, "Metal", "Medium", "Green");
+        Lenskart l16 = new Lenskart(16, -0.75, "Polycarbonate", "Single Vision", f16);
+        l16.displayLenskartInfo();
+
+        Frame f17 = new Frame(117, "Plastic", "Large", "Gray");
+        Lenskart l17 = new Lenskart(17, 2.5, "Plastic", "Bifocal", f17);
+        l17.displayLenskartInfo();
+
+        Frame f18 = new Frame(118, "Titanium", "Small", "Purple");
+        Lenskart l18 = new Lenskart(18, -1.25, "Glass", "Progressive", f18);
+        l18.displayLenskartInfo();
+
+        Frame f19 = new Frame(119, "Metal", "Medium", "Black");
+        Lenskart l19 = new Lenskart(19, 0.25, "Polycarbonate", "Single Vision", f19);
+        l19.displayLenskartInfo();
+
+        Frame f20 = new Frame(120, "Plastic", "Large", "Blue");
+        Lenskart l20 = new Lenskart(20, -2.75, "Plastic", "Bifocal", f20);
+        l20.displayLenskartInfo();
 
     }
 }
