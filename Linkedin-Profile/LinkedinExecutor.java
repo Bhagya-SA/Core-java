@@ -2,7 +2,7 @@ class LinkedinExecutor {
 
     public static void main(String[] args) {
 
-        Linkedin l1 = new Linkedin();
+        /*Linkedin l1 = new Linkedin();
         l1.linkedinId = 101;
         l1.userName = "Rahul";
         l1.email = "rahul@gmail.com";
@@ -220,6 +220,86 @@ class LinkedinExecutor {
         p20.designation = "Cyber Security Engineer";
         p20.company = "Palo Alto";
         l20.profile = p20;
+        l20.displayLinkedinInfo(); */
+
+         Profile p1 = new Profile(201, "Software Engineer", "TCS");
+        Linkedin l1 = new Linkedin(101, "Rahul", "rahul@gmail.com", p1);
+        l1.displayLinkedinInfo();
+
+        Profile p2 = new Profile(202, "Data Analyst", "Infosys");
+        Linkedin l2 = new Linkedin(102, "Anita", "anita@gmail.com", p2);
+        l2.displayLinkedinInfo();
+
+        Profile p3 = new Profile(203, "Web Developer", "Wipro");
+        Linkedin l3 = new Linkedin(103, "Kiran", "kiran@gmail.com", p3);
+        l3.displayLinkedinInfo();
+
+        Profile p4 = new Profile(204, "Cloud Engineer", "Amazon");
+        Linkedin l4 = new Linkedin(104, "Sneha", "sneha@gmail.com", p4);
+        l4.displayLinkedinInfo();
+
+        Profile p5 = new Profile(205, "AI Engineer", "Google");
+        Linkedin l5 = new Linkedin(105, "Arjun", "arjun@gmail.com", p5);
+        l5.displayLinkedinInfo();
+
+        Profile p6 = new Profile(206, "System Engineer", "IBM");
+        Linkedin l6 = new Linkedin(106, "Meera", "meera@gmail.com", p6);
+        l6.displayLinkedinInfo();
+
+        Profile p7 = new Profile(207, "DevOps Engineer", "Oracle");
+        Linkedin l7 = new Linkedin(107, "Ravi", "ravi@gmail.com", p7);
+        l7.displayLinkedinInfo();
+
+        Profile p8 = new Profile(208, "UI/UX Designer", "Adobe");
+        Linkedin l8 = new Linkedin(108, "Priya", "priya@gmail.com", p8);
+        l8.displayLinkedinInfo();
+
+        Profile p9 = new Profile(209, "Security Analyst", "Cisco");
+        Linkedin l9 = new Linkedin(109, "Manoj", "manoj@gmail.com", p9);
+        l9.displayLinkedinInfo();
+
+        Profile p10 = new Profile(210, "Database Administrator", "Accenture");
+        Linkedin l10 = new Linkedin(110, "Pooja", "pooja@gmail.com", p10);
+        l10.displayLinkedinInfo();
+
+        Profile p11 = new Profile(211, "Backend Developer", "Meta");
+        Linkedin l11 = new Linkedin(111, "Sanjay", "sanjay@gmail.com", p11);
+        l11.displayLinkedinInfo();
+
+        Profile p12 = new Profile(212, "Mobile Developer", "Samsung");
+        Linkedin l12 = new Linkedin(112, "Divya", "divya@gmail.com", p12);
+        l12.displayLinkedinInfo();
+
+        Profile p13 = new Profile(213, "Full Stack Developer", "Flipkart");
+        Linkedin l13 = new Linkedin(113, "Akash", "akash@gmail.com", p13);
+        l13.displayLinkedinInfo();
+
+        Profile p14 = new Profile(214, "QA Engineer", "Capgemini");
+        Linkedin l14 = new Linkedin(114, "Lakshmi", "lakshmi@gmail.com", p14);
+        l14.displayLinkedinInfo();
+
+        Profile p15 = new Profile(215, "Machine Learning Engineer", "Microsoft");
+        Linkedin l15 = new Linkedin(115, "Rohit", "rohit@gmail.com", p15);
+        l15.displayLinkedinInfo();
+
+        Profile p16 = new Profile(216, "Product Manager", "Uber");
+        Linkedin l16 = new Linkedin(116, "Neha", "neha@gmail.com", p16);
+        l16.displayLinkedinInfo();
+
+        Profile p17 = new Profile(217, "Blockchain Developer", "Coinbase");
+        Linkedin l17 = new Linkedin(117, "Karthik", "karthik@gmail.com", p17);
+        l17.displayLinkedinInfo();
+
+        Profile p18 = new Profile(218, "Network Engineer", "Juniper");
+        Linkedin l18 = new Linkedin(118, "Deepa", "deepa@gmail.com", p18);
+        l18.displayLinkedinInfo();
+
+        Profile p19 = new Profile(219, "Game Developer", "Unity");
+        Linkedin l19 = new Linkedin(119, "Vikram", "vikram@gmail.com", p19);
+        l19.displayLinkedinInfo();
+
+        Profile p20 = new Profile(220, "Cyber Security Engineer", "Palo Alto");
+        Linkedin l20 = new Linkedin(120, "Anil", "anil@gmail.com", p20);
         l20.displayLinkedinInfo();
     }
 }
