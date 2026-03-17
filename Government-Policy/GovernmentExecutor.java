@@ -2,7 +2,7 @@ class GovernmentExecutor {
 
     public static void main(String[] args) {
 
-        Government g1 = new Government();
+        /*Government g1 = new Government();
         g1.governmentId = 101;
         g1.governmentName = "Central Government";
         g1.country = "India";
@@ -220,6 +220,86 @@ class GovernmentExecutor {
         p20.policyName = "One Nation One Ration Card";
         p20.policyType = "Food Security";
         g20.policy = p20;
+        g20.displayGovernmentInfo();*/
+
+        Policy p1 = new Policy(201, "Digital India", "Technology");
+        Government g1 = new Government(101, "Central Government", "India", p1);
+        g1.displayGovernmentInfo();
+
+        Policy p2 = new Policy(202, "Make in India", "Manufacturing");
+        Government g2 = new Government(102, "Central Government", "India", p2);
+        g2.displayGovernmentInfo();
+
+        Policy p3 = new Policy(203, "Ayushman Bharat", "Healthcare");
+        Government g3 = new Government(103, "State Government", "India", p3);
+        g3.displayGovernmentInfo();
+
+        Policy p4 = new Policy(204, "Startup India", "Business");
+        Government g4 = new Government(104, "State Government", "India", p4);
+        g4.displayGovernmentInfo();
+
+        Policy p5 = new Policy(205, "Skill India", "Education");
+        Government g5 = new Government(105, "Central Government", "India", p5);
+        g5.displayGovernmentInfo();
+
+        Policy p6 = new Policy(206, "Swachh Bharat", "Sanitation");
+        Government g6 = new Government(106, "Central Government", "India", p6);
+        g6.displayGovernmentInfo();
+
+        Policy p7 = new Policy(207, "National Education Policy", "Education");
+        Government g7 = new Government(107, "State Government", "India", p7);
+        g7.displayGovernmentInfo();
+
+        Policy p8 = new Policy(208, "Beti Bachao Beti Padhao", "Women Welfare");
+        Government g8 = new Government(108, "Central Government", "India", p8);
+        g8.displayGovernmentInfo();
+
+        Policy p9 = new Policy(209, "PM Kisan", "Agriculture");
+        Government g9 = new Government(109, "State Government", "India", p9);
+        g9.displayGovernmentInfo();
+
+        Policy p10 = new Policy(210, "Ujjwala Yojana", "Energy");
+        Government g10 = new Government(110, "Central Government", "India", p10);
+        g10.displayGovernmentInfo();
+
+        Policy p11 = new Policy(211, "Smart Cities Mission", "Urban Development");
+        Government g11 = new Government(111, "Central Government", "India", p11);
+        g11.displayGovernmentInfo();
+
+        Policy p12 = new Policy(212, "Atal Pension Yojana", "Finance");
+        Government g12 = new Government(112, "State Government", "India", p12);
+        g12.displayGovernmentInfo();
+
+        Policy p13 = new Policy(213, "Pradhan Mantri Awas Yojana", "Housing");
+        Government g13 = new Government(113, "Central Government", "India", p13);
+        g13.displayGovernmentInfo();
+
+        Policy p14 = new Policy(214, "Digital Health Mission", "Healthcare");
+        Government g14 = new Government(114, "State Government", "India", p14);
+        g14.displayGovernmentInfo();
+
+        Policy p15 = new Policy(215, "Jal Jeevan Mission", "Water Supply");
+        Government g15 = new Government(115, "Central Government", "India", p15);
+        g15.displayGovernmentInfo();
+
+        Policy p16 = new Policy(216, "Green India Mission", "Environment");
+        Government g16 = new Government(116, "State Government", "India", p16);
+        g16.displayGovernmentInfo();
+
+        Policy p17 = new Policy(217, "PM Fasal Bima Yojana", "Agriculture");
+        Government g17 = new Government(117, "Central Government", "India", p17);
+        g17.displayGovernmentInfo();
+
+        Policy p18 = new Policy(218, "Stand Up India", "Entrepreneurship");
+        Government g18 = new Government(118, "State Government", "India", p18);
+        g18.displayGovernmentInfo();
+
+        Policy p19 = new Policy(219, "National Logistics Policy", "Transport");
+        Government g19 = new Government(119, "Central Government", "India", p19);
+        g19.displayGovernmentInfo();
+
+        Policy p20 = new Policy(220, "One Nation One Ration Card", "Food Security");
+        Government g20 = new Government(120, "Central Government", "India", p20);
         g20.displayGovernmentInfo();
     }
 }
