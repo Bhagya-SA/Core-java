@@ -2,7 +2,7 @@ class TrainExecutor {
 
 	public static void main(String[] bullet) {
 
-		Train train1 = new Train();
+		/*Train train1 = new Train();
 		train1.trainId = 1;
 		train1.trainNo = 345678;
 		train1.trainName = "SiddagangaExpress";
@@ -279,7 +279,88 @@ class TrainExecutor {
 		compartment20.compartmentType = "Sleeper";
 		compartment20.seatCapacity = 40;
 		train20.compartment = compartment20;
-		train20.displayTrainInfo();
+		train20.displayTrainInfo();*/
 
+		 Compartment compartment1 = new Compartment(101, "AC", 30);
+        Train train1 = new Train(1, 345678, "SiddagangaExpress", "Bangalore", "Davangere", compartment1);
+        train1.displayTrainInfo();
+
+        Compartment compartment2 = new Compartment(102, "Sleeper", 40);
+        Train train2 = new Train(2, 345679, "MysoreExpress", "Bangalore", "Mysore", compartment2);
+        train2.displayTrainInfo();
+
+        Compartment compartment3 = new Compartment(103, "AC", 35);
+        Train train3 = new Train(3, 345680, "HampiExpress", "Bangalore", "Hospet", compartment3);
+        train3.displayTrainInfo();
+
+        Compartment compartment4 = new Compartment(104, "General", 50);
+        Train train4 = new Train(4, 345681, "GolGumbazExpress", "Mysore", "Bijapur", compartment4);
+        train4.displayTrainInfo();
+
+        Compartment compartment5 = new Compartment(105, "AC", 28);
+        Train train5 = new Train(5, 345682, "UdyanExpress", "Bangalore", "Mumbai", compartment5);
+        train5.displayTrainInfo();
+
+        Compartment compartment6 = new Compartment(106, "AC", 32);
+        Train train6 = new Train(6, 345683, "ShatabdiExpress", "Bangalore", "Chennai", compartment6);
+        train6.displayTrainInfo();
+
+        Compartment compartment7 = new Compartment(107, "AC", 36);
+        Train train7 = new Train(7, 345684, "RajdhaniExpress", "Bangalore", "Delhi", compartment7);
+        train7.displayTrainInfo();
+
+        Compartment compartment8 = new Compartment(108, "Sleeper", 45);
+        Train train8 = new Train(8, 345685, "IntercityExpress", "Hubli", "Bangalore", compartment8);
+        train8.displayTrainInfo();
+
+        Compartment compartment9 = new Compartment(109, "AC", 30);
+        Train train9 = new Train(9, 345686, "JanShatabdi", "Bangalore", "Mangalore", compartment9);
+        train9.displayTrainInfo();
+
+        Compartment compartment10 = new Compartment(110, "General", 55);
+        Train train10 = new Train(10, 345687, "ChamundiExpress", "Mysore", "Bangalore", compartment10);
+        train10.displayTrainInfo();
+
+        Compartment compartment11 = new Compartment(111, "Sleeper", 40);
+        Train train11 = new Train(11, 345688, "KaveriExpress", "Mysore", "Chennai", compartment11);
+        train11.displayTrainInfo();
+
+        Compartment compartment12 = new Compartment(112, "AC", 30);
+        Train train12 = new Train(12, 345689, "BrindavanExpress", "Bangalore", "Chennai", compartment12);
+        train12.displayTrainInfo();
+
+        Compartment compartment13 = new Compartment(113, "Sleeper", 42);
+        Train train13 = new Train(13, 345690, "TungabhadraExpress", "Bangalore", "Hyderabad", compartment13);
+        train13.displayTrainInfo();
+
+        Compartment compartment14 = new Compartment(114, "General", 50);
+        Train train14 = new Train(14, 345691, "HassanExpress", "Bangalore", "Hassan", compartment14);
+        train14.displayTrainInfo();
+
+        Compartment compartment15 = new Compartment(115, "Sleeper", 38);
+        Train train15 = new Train(15, 345692, "MalnadExpress", "Bangalore", "Shimoga", compartment15);
+        train15.displayTrainInfo();
+
+        Compartment compartment16 = new Compartment(116, "AC", 26);
+        Train train16 = new Train(16, 345693, "CoorgExpress", "Bangalore", "Madikeri", compartment16);
+        train16.displayTrainInfo();
+
+        Compartment compartment17 = new Compartment(117, "Sleeper", 40);
+        Train train17 = new Train(17, 345694, "BelgaumExpress", "Bangalore", "Belgaum", compartment17);
+        train17.displayTrainInfo();
+
+        Compartment compartment18 = new Compartment(118, "General", 48);
+        Train train18 = new Train(18, 345695, "HubliExpress", "Bangalore", "Hubli", compartment18);
+        train18.displayTrainInfo();
+
+        Compartment compartment19 = new Compartment(119, "AC", 34);
+        Train train19 = new Train(19, 345696, "KarwarExpress", "Bangalore", "Karwar", compartment19);
+        train19.displayTrainInfo();
+
+        Compartment compartment20 = new Compartment(120, "Sleeper", 40);
+        Train train20 = new Train(20, 345697, "MangaloreExpress", "Bangalore", "Mangalore", compartment20);
+        train20.displayTrainInfo();
+
+	
 	}
 }
