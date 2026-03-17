@@ -4,6 +4,13 @@ class Hardware {
 	String hardwareName;
 	String hardwareType;
 	double price;
+
+	public Hardware(int hardwareId, String hardwareName, String hardwareType, double price) {
+        this.hardwareId = hardwareId;
+        this.hardwareName = hardwareName;
+        this.hardwareType = hardwareType;
+        this.price = price;
+    }
 	
 	public void displayHardwareInfo() {
 	
