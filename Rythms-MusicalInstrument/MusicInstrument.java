@@ -2,6 +2,12 @@ class MusicInstrument {
     int instrumentId;
     String instrumentName;
     String instrumentType;
+    
+     public MusicInstrument(int instrumentId, String instrumentName, String instrumentType) {
+        this.instrumentId = instrumentId;
+        this.instrumentName = instrumentName;
+        this.instrumentType = instrumentType;
+    }
 
     public void displayInstrumentInfo() {
         System.out.println("Instrument Id : " + this.instrumentId);
