@@ -4,6 +4,13 @@ class Cassino {
 	String location;
 	String gamesAvailable;
 	int revenue;
+
+	public Cassino(int id , String location , String gamesAvailable , int revenue) {
+		this.id = id;
+		this.location = location;
+		this.gamesAvailable = gamesAvailable;
+		this.revenue = revenue;
+	}
 	
 	public void displayCassinoInfo() {
 		System.out.println("Id is : " + this.id);
