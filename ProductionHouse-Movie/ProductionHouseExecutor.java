@@ -2,7 +2,7 @@ class ProductionHouseExecutor {
 
     public static void main(String[] args) {
 
-        ProductionHouse ph1 = new ProductionHouse();
+        /*ProductionHouse ph1 = new ProductionHouse();
         ph1.productionHouseId = 101;
         ph1.productionHouseName = "Sun Pictures";
         ph1.location = "India";
@@ -221,6 +221,86 @@ class ProductionHouseExecutor {
         m20.movieName = "Sooryavanshi";
         m20.genre = "Action";
         ph20.movie = m20;
+        ph20.displayProductionHouseInfo();*/
+
+        Movie m1 = new Movie(201, "Jailer", "Action");
+        ProductionHouse ph1 = new ProductionHouse(101, "Sun Pictures", "India", m1);
+        ph1.displayProductionHouseInfo();
+
+        Movie m2 = new Movie(202, "Batman", "Superhero");
+        ProductionHouse ph2 = new ProductionHouse(102, "Warner Bros", "USA", m2);
+        ph2.displayProductionHouseInfo();
+
+        Movie m3 = new Movie(203, "Pathaan", "Action");
+        ProductionHouse ph3 = new ProductionHouse(103, "Yash Raj Films", "India", m3);
+        ph3.displayProductionHouseInfo();
+
+        Movie m4 = new Movie(204, "Avengers", "Superhero");
+        ProductionHouse ph4 = new ProductionHouse(104, "Marvel Studios", "USA", m4);
+        ph4.displayProductionHouseInfo();
+
+        Movie m5 = new Movie(205, "Rocky Aur Rani", "Romance");
+        ProductionHouse ph5 = new ProductionHouse(105, "Dharma Productions", "India", m5);
+        ph5.displayProductionHouseInfo();
+
+        Movie m6 = new Movie(206, "Mission Impossible", "Action");
+        ProductionHouse ph6 = new ProductionHouse(106, "Paramount Pictures", "USA", m6);
+        ph6.displayProductionHouseInfo();
+
+        Movie m7 = new Movie(207, "Jurassic World", "Adventure");
+        ProductionHouse ph7 = new ProductionHouse(107, "Universal Pictures", "USA", m7);
+        ph7.displayProductionHouseInfo();
+
+        Movie m8 = new Movie(208, "Avatar", "Sci-Fi");
+        ProductionHouse ph8 = new ProductionHouse(108, "20th Century Studios", "USA", m8);
+        ph8.displayProductionHouseInfo();
+
+        Movie m9 = new Movie(209, "Chennai Express", "Comedy");
+        ProductionHouse ph9 = new ProductionHouse(109, "Red Chillies Entertainment", "India", m9);
+        ph9.displayProductionHouseInfo();
+
+        Movie m10 = new Movie(210, "Toy Story", "Animation");
+        ProductionHouse ph10 = new ProductionHouse(110, "Pixar", "USA", m10);
+        ph10.displayProductionHouseInfo();
+
+        Movie m11 = new Movie(211, "Shrek", "Animation");
+        ProductionHouse ph11 = new ProductionHouse(111, "DreamWorks", "USA", m11);
+        ph11.displayProductionHouseInfo();
+
+        Movie m12 = new Movie(212, "Spider-Man", "Superhero");
+        ProductionHouse ph12 = new ProductionHouse(112, "Columbia Pictures", "USA", m12);
+        ph12.displayProductionHouseInfo();
+
+        Movie m13 = new Movie(213, "The Matrix", "Sci-Fi");
+        ProductionHouse ph13 = new ProductionHouse(113, "Village Roadshow", "Australia", m13);
+        ph13.displayProductionHouseInfo();
+
+        Movie m14 = new Movie(214, "Spirited Away", "Fantasy");
+        ProductionHouse ph14 = new ProductionHouse(114, "Studio Ghibli", "Japan", m14);
+        ph14.displayProductionHouseInfo();
+
+        Movie m15 = new Movie(215, "John Wick", "Action");
+        ProductionHouse ph15 = new ProductionHouse(115, "Lionsgate", "USA", m15);
+        ph15.displayProductionHouseInfo();
+
+        Movie m16 = new Movie(216, "Everything Everywhere All At Once", "Sci-Fi");
+        ProductionHouse ph16 = new ProductionHouse(116, "A24", "USA", m16);
+        ph16.displayProductionHouseInfo();
+
+        Movie m17 = new Movie(217, "Ice Age", "Animation");
+        ProductionHouse ph17 = new ProductionHouse(117, "Blue Sky Studios", "USA", m17);
+        ph17.displayProductionHouseInfo();
+
+        Movie m18 = new Movie(218, "Godzilla vs Kong", "Monster");
+        ProductionHouse ph18 = new ProductionHouse(118, "Legendary Pictures", "USA", m18);
+        ph18.displayProductionHouseInfo();
+
+        Movie m19 = new Movie(219, "World War Z", "Thriller");
+        ProductionHouse ph19 = new ProductionHouse(119, "Plan B Entertainment", "USA", m19);
+        ph19.displayProductionHouseInfo();
+
+        Movie m20 = new Movie(220, "Sooryavanshi", "Action");
+        ProductionHouse ph20 = new ProductionHouse(120, "Reliance Entertainment", "India", m20);
         ph20.displayProductionHouseInfo();
     }
 }
