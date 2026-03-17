@@ -5,6 +5,13 @@ class NewsPaper {
     String language;
     Article article;
 
+     public NewsPaper(int newsPaperId, String newsPaperName, String language, Article article) {
+        this.newsPaperId = newsPaperId;
+        this.newsPaperName = newsPaperName;
+        this.language = language;
+        this.article = article;
+    }
+
     public void displayNewsPaperInfo() {
         System.out.println("NewsPaper Id : " + this.newsPaperId);
         System.out.println("NewsPaper Name : " + this.newsPaperName);
