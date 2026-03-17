@@ -2,7 +2,7 @@ class CCDExecutor {
 
     public static void main(String[] args) {
 
-        CCD c1 = new CCD();
+       /* CCD c1 = new CCD();
         c1.cafeId = 101;
         c1.customerName = "Rahul";
         c1.location = "Bangalore";
@@ -220,7 +220,7 @@ class CCDExecutor {
         cf20.coffeeName = "Almond Coffee";
         cf20.price = 180;
         c20.coffee = cf20;
-        c20.displayCafeInfo();
+        c20.displayCafeInfo(); */
 
          Coffee coffee1 = new Coffee(201, "Cappuccino", 150);
         CCD c1 = new CCD(101, "Rahul", "Bangalore", coffee1);
