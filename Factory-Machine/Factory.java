@@ -5,6 +5,14 @@ class Factory {
     int totalWorkers;
     Machine machine;
 
+     public Factory(int factoryId, String factoryName, String location, int totalWorkers, Machine machine) {
+        this.factoryId = factoryId;
+        this.factoryName = factoryName;
+        this.location = location;
+        this.totalWorkers = totalWorkers;
+        this.machine = machine;
+    }
+
     public void displayFactoryInfo() {
         System.out.println("Factory Id : " + this.factoryId);
         System.out.println("Factory Name : " + this.factoryName);
