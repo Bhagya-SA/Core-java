@@ -2,7 +2,7 @@ class UniverseExecutor {
 
     public static void main(String[] earth) {
 
-        Universe u1 = new Universe();
+        /*Universe u1 = new Universe();
         u1.universeId = 101;
         u1.universeName = "Milky Way";
         u1.galaxy = "Milky Way Galaxy";
@@ -220,6 +220,90 @@ class UniverseExecutor {
         e20.earthName = "Earth-20";
         e20.continent = "Australia";
         u20.earth = e20;
+        u20.displayUniverseInfo();*/
+
+        Earth e1 = new Earth(201, "Earth-1", "North America");
+        Universe u1 = new Universe(101, "Milky Way", "Milky Way Galaxy", e1);
+        u1.displayUniverseInfo();
+
+        Earth e2 = new Earth(202, "Earth-2", "South America");
+        Universe u2 = new Universe(102, "Andromeda", "Andromeda Galaxy", e2);
+        u2.displayUniverseInfo();
+
+        Earth e3 = new Earth(203, "Earth-3", "Europe");
+        Universe u3 = new Universe(103, "Triangulum", "Triangulum Galaxy", e3);
+        u3.displayUniverseInfo();
+
+        Earth e4 = new Earth(204, "Earth-4", "Asia");
+        Universe u4 = new Universe(104, "Whirlpool", "Whirlpool Galaxy", e4);
+        u4.displayUniverseInfo();
+
+        Earth e5 = new Earth(205, "Earth-5", "Africa");
+        Universe u5 = new Universe(105, "Sombrero", "Sombrero Galaxy", e5);
+        u5.displayUniverseInfo();
+
+        Earth e6 = new Earth(206, "Earth-6", "Australia");
+        Universe u6 = new Universe(106, "Pinwheel", "Pinwheel Galaxy", e6);
+        u6.displayUniverseInfo();
+
+        Earth e7 = new Earth(207, "Earth-7", "Antarctica");
+        Universe u7 = new Universe(107, "Messier 81", "Bode's Galaxy", e7);
+        u7.displayUniverseInfo();
+
+        Earth e8 = new Earth(208, "Earth-8", "North America");
+        Universe u8 = new Universe(108, "NGC 1300", "NGC 1300 Galaxy", e8);
+        u8.displayUniverseInfo();
+
+        Earth e9 = new Earth(209, "Earth-9", "South America");
+        Universe u9 = new Universe(109, "Cartwheel", "Cartwheel Galaxy", e9);
+        u9.displayUniverseInfo();
+
+        Earth e10 = new Earth(210, "Earth-10", "Europe");
+        Universe u10 = new Universe(110, "NGC 6744", "NGC 6744 Galaxy", e10);
+        u10.displayUniverseInfo();
+
+        Earth e11 = new Earth(211, "Earth-11", "Asia");
+        Universe u11 = new Universe(111, "Messier 106", "M106 Galaxy", e11);
+        u11.displayUniverseInfo();
+
+        Earth e12 = new Earth(212, "Earth-12", "Africa");
+        Universe u12 = new Universe(112, "NGC 4414", "NGC 4414 Galaxy", e12);
+        u12.displayUniverseInfo();
+
+        Earth e13 = new Earth(213, "Earth-13", "Australia");
+        Universe u13 = new Universe(113, "NGC 2997", "NGC 2997 Galaxy", e13);
+        u13.displayUniverseInfo();
+
+        Earth e14 = new Earth(214, "Earth-14", "Antarctica");
+        Universe u14 = new Universe(114, "NGC 1232", "NGC 1232 Galaxy", e14);
+        u14.displayUniverseInfo();
+
+        Earth e15 = new Earth(215, "Earth-15", "North America");
+        Universe u15 = new Universe(115, "NGC 6946", "Fireworks Galaxy", e15);
+        u15.displayUniverseInfo();
+
+        Earth e16 = new Earth(216, "Earth-16", "South America");
+        Universe u16 = new Universe(116, "Messier 101", "Pinwheel Galaxy", e16);
+        u16.displayUniverseInfo();
+
+        Earth e17 = new Earth(217, "Earth-17", "Europe");
+        Universe u17 = new Universe(117, "NGC 1365", "NGC 1365 Galaxy", e17);
+        u17.displayUniverseInfo();
+
+        Earth e18 = new Earth(218, "Earth-18", "Asia");
+        Universe u18 = new Universe(118, "Messier 33", "Triangulum Galaxy", e18);
+        u18.displayUniverseInfo();
+
+        Earth e19 = new Earth(219, "Earth-19", "Africa");
+        Universe u19 = new Universe(119, "NGC 253", "Sculptor Galaxy", e19);
+        u19.displayUniverseInfo();
+
+        Earth e20 = new Earth(220, "Earth-20", "Australia");
+        Universe u20 = new Universe(120, "NGC 4565", "Needle Galaxy", e20);
         u20.displayUniverseInfo();
+
+        
+
+        
     }
 }
