@@ -1,6 +1,6 @@
 class RythmsExecutor {
     public static void main(String[] rythms) {
-        Rythms store1 = new Rythms();
+        /*Rythms store1 = new Rythms();
         store1.storeId = 1;
         store1.storeName = "Rythms Bangalore";
         store1.location = "Bangalore";
@@ -238,6 +238,104 @@ class RythmsExecutor {
         instrument20.instrumentName = "Marimba";
         instrument20.instrumentType = "Percussion";
         store20.instrument = instrument20;
+        store20.displayStoreInfo(); */
+
+        MusicInstrument instrument1 = new MusicInstrument(101, "Guitar", "String");
+        Rythms store1 = new Rythms(1, "Rythms Bangalore", "Bangalore", 100, instrument1);
+        store1.displayStoreInfo();
+
+        
+        MusicInstrument instrument2 = new MusicInstrument(102, "Piano", "Keyboard");
+        Rythms store2 = new Rythms(2, "Rythms Chennai", "Chennai", 90, instrument2);
+        store2.displayStoreInfo();
+
+        
+        MusicInstrument instrument3 = new MusicInstrument(103, "Drums", "Percussion");
+        Rythms store3 = new Rythms(3, "Rythms Hyderabad", "Hyderabad", 80, instrument3);
+        store3.displayStoreInfo();
+
+       
+        MusicInstrument instrument4 = new MusicInstrument(104, "Violin", "String");
+        Rythms store4 = new Rythms(4, "Rythms Bangalore-2", "Bangalore", 110, instrument4);
+        store4.displayStoreInfo();
+
+        
+        MusicInstrument instrument5 = new MusicInstrument(105, "Flute", "Wind");
+        Rythms store5 = new Rythms(5, "Rythms Chennai-2", "Chennai", 95, instrument5);
+        store5.displayStoreInfo();
+
+        
+        MusicInstrument instrument6 = new MusicInstrument(106, "Saxophone", "Wind");
+        Rythms store6 = new Rythms(6, "Rythms Hyderabad-2", "Hyderabad", 85, instrument6);
+        store6.displayStoreInfo();
+
+        
+        MusicInstrument instrument7 = new MusicInstrument(107, "Tabla", "Percussion");
+        Rythms store7 = new Rythms(7, "Rythms Bangalore-3", "Bangalore", 120, instrument7);
+        store7.displayStoreInfo();
+
+        
+        MusicInstrument instrument8 = new MusicInstrument(108, "Harmonium", "Keyboard");
+        Rythms store8 = new Rythms(8, "Rythms Chennai-3", "Chennai", 100, instrument8);
+        store8.displayStoreInfo();
+
+      
+        MusicInstrument instrument9 = new MusicInstrument(109, "Trumpet", "Wind");
+        Rythms store9 = new Rythms(9, "Rythms Hyderabad-3", "Hyderabad", 90, instrument9);
+        store9.displayStoreInfo();
+
+        
+        MusicInstrument instrument10 = new MusicInstrument(110, "Cajon", "Percussion");
+        Rythms store10 = new Rythms(10, "Rythms Bangalore-4", "Bangalore", 115, instrument10);
+        store10.displayStoreInfo();
+
+        
+        MusicInstrument instrument11 = new MusicInstrument(111, "Glockenspiel", "Percussion");
+        Rythms store11 = new Rythms(11, "Rythms Chennai-4", "Chennai", 95, instrument11);
+        store11.displayStoreInfo();
+
+        
+        MusicInstrument instrument12 = new MusicInstrument(112, "Clarinet", "Wind");
+        Rythms store12 = new Rythms(12, "Rythms Hyderabad-4", "Hyderabad", 85, instrument12);
+        store12.displayStoreInfo();
+
+        MusicInstrument instrument13 = new MusicInstrument(113, "Electric Guitar", "String");
+        Rythms store13 = new Rythms(13, "Rythms Bangalore-5", "Bangalore", 120, instrument13);
+        store13.displayStoreInfo();
+
+       
+        MusicInstrument instrument14 = new MusicInstrument(114, "Viola", "String");
+        Rythms store14 = new Rythms(14, "Rythms Chennai-5", "Chennai", 100, instrument14);
+        store14.displayStoreInfo();
+
+        
+        MusicInstrument instrument15 = new MusicInstrument(115, "Oboe", "Wind");
+        Rythms store15 = new Rythms(15, "Rythms Hyderabad-5", "Hyderabad", 90, instrument15);
+        store15.displayStoreInfo();
+
+        
+        MusicInstrument instrument16 = new MusicInstrument(116, "Bass Guitar", "String");
+        Rythms store16 = new Rythms(16, "Rythms Bangalore-6", "Bangalore", 110, instrument16);
+        store16.displayStoreInfo();
+
+        
+        MusicInstrument instrument17 = new MusicInstrument(117, "Trombone", "Wind");
+        Rythms store17 = new Rythms(17, "Rythms Chennai-6", "Chennai", 95, instrument17);
+        store17.displayStoreInfo();
+
+        
+        MusicInstrument instrument18 = new MusicInstrument(118, "Bongo", "Percussion");
+        Rythms store18 = new Rythms(18, "Rythms Hyderabad-6", "Hyderabad", 85, instrument18);
+        store18.displayStoreInfo();
+
+       
+        MusicInstrument instrument19 = new MusicInstrument(119, "Synthesizer", "Keyboard");
+        Rythms store19 = new Rythms(19, "Rythms Bangalore-7", "Bangalore", 120, instrument19);
+        store19.displayStoreInfo();
+
+        
+        MusicInstrument instrument20 = new MusicInstrument(120, "Marimba", "Percussion");
+        Rythms store20 = new Rythms(20, "Rythms Chennai-7", "Chennai", 100, instrument20);
         store20.displayStoreInfo();
     }
 }
