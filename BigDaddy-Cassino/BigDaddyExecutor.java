@@ -2,7 +2,7 @@ class BigDaddyExecutor {
 
     public static void main(String[] ship) {
 
-        BigDaddy bd1 = new BigDaddy();
+        /*BigDaddy bd1 = new BigDaddy();
         bd1.id = 201;
         bd1.name = "Rafael";
         bd1.reputation = "Legendary";
@@ -220,7 +220,39 @@ class BigDaddyExecutor {
         cassino20.location = "Las Vegas";
         cassino20.gamesAvailable = "Slots, Baccarat";
         cassino20.revenue = 89000;
-        bd20.cassino = cassino20;
+        bd20.cassino = cassino20; /*
+
+        Cassino cassino1 = new Cassino(301, "Goa", "Poker, Blackjack", 45000);
+        BigDaddy bd1 = new BigDaddy(201, "Rafael", "Legendary", cassino1);
+
+        Cassino cassino2 = new Cassino(302, "Macau", "Baccarat, Roulette", 60000);
+        BigDaddy bd2 = new BigDaddy(202, "Vincent", "Infamous", cassino2);
+
+        Cassino cassino3 = new Cassino(303, "Monaco", "Poker, Slots", 75000);
+        BigDaddy bd3 = new BigDaddy(203, "Marco", "Respected", cassino3);
+
+        Cassino cassino4 = new Cassino(304, "Singapore", "Roulette, Blackjack", 52000);
+        BigDaddy bd4 = new BigDaddy(204, "Leon", "Bold", cassino4);
+
+        Cassino cassino5 = new Cassino(305, "Las Vegas", "Slots, Poker", 90000);
+        BigDaddy bd5 = new BigDaddy(205, "Antonio", "Cunning", cassino5);
+
+        Cassino cassino6 = new Cassino(306, "Macau", "Baccarat, Slots", 67000);
+        BigDaddy bd6 = new BigDaddy(206, "Diego", "Strategist", cassino6);
+
+        Cassino cassino7 = new Cassino(307, "Goa", "Poker, Roulette", 48000);
+        BigDaddy bd7 = new BigDaddy(207, "Sergio", "Feared", cassino7);
+
+        Cassino cassino8 = new Cassino(308, "Monaco", "Blackjack, Slots", 72000);
+        BigDaddy bd8 = new BigDaddy(208, "Carlos", "Bold", cassino8);
+
+        Cassino cassino9 = new Cassino(309, "Singapore", "Roulette, Poker", 54000);
+        BigDaddy bd9 = new BigDaddy(209, "Felipe", "Lucky", cassino9);
+
+        Cassino cassino10 = new Cassino(310, "Las Vegas", "Slots, Baccarat", 88000);
+        BigDaddy bd10 = new BigDaddy(210, "Ricardo", "Wise", cassino10);
+
+       
 
         
         bd1.displayBigDaddyInfo();
