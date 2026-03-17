@@ -6,6 +6,15 @@ class Train {
 	String sourceStation;
 	String destinationStation;
 	Compartment compartment;
+
+	 public Train(int trainId, int trainNo, String trainName, String sourceStation, String destinationStation, Compartment compartment) {
+        this.trainId = trainId;
+        this.trainNo = trainNo;
+        this.trainName = trainName;
+        this.sourceStation = sourceStation;
+        this.destinationStation = destinationStation;
+        this.compartment = compartment;
+    }
 	
 	public void displayTrainInfo() {
 	
