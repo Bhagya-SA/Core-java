@@ -2,7 +2,7 @@ class VVPuramExecutor {
 
     public static void main(String[] foodStreet) {
 
-        VVPuram v1 = new VVPuram();
+        /*VVPuram v1 = new VVPuram();
         v1.streetId = 101;
         v1.visitorName = "Rahul";
         v1.city = "Bangalore";
@@ -220,6 +220,68 @@ class VVPuramExecutor {
         f20.foodName = "Gulab Jamun";
         f20.price = 40;
         v20.foodStreet = f20;
+        v20.displayStreetInfo();*/
+
+        VVPuram v1 = new VVPuram(101, "Rahul", "Bangalore", new FoodStreet(201, "Masala Dosa", 60));
+        v1.displayStreetInfo();
+
+        VVPuram v2 = new VVPuram(102, "Anita", "Bangalore", new FoodStreet(202, "Pani Puri", 40));
+        v2.displayStreetInfo();
+
+        VVPuram v3 = new VVPuram(103, "Kiran", "Bangalore", new FoodStreet(203, "Chole Bhature", 80));
+        v3.displayStreetInfo();
+
+        VVPuram v4 = new VVPuram(104, "Sneha", "Bangalore", new FoodStreet(204, "Pav Bhaji", 90));
+        v4.displayStreetInfo();
+
+        VVPuram v5 = new VVPuram(105, "Arjun", "Bangalore", new FoodStreet(205, "Vada Pav", 35));
+        v5.displayStreetInfo();
+
+        VVPuram v6 = new VVPuram(106, "Meera", "Bangalore", new FoodStreet(206, "Bhel Puri", 50));
+        v6.displayStreetInfo();
+
+        VVPuram v7 = new VVPuram(107, "Ravi", "Bangalore", new FoodStreet(207, "Gobi Manchurian", 70));
+        v7.displayStreetInfo();
+
+        VVPuram v8 = new VVPuram(108, "Priya", "Bangalore", new FoodStreet(208, "Idli", 30));
+        v8.displayStreetInfo();
+
+        VVPuram v9 = new VVPuram(109, "Manoj", "Bangalore", new FoodStreet(209, "Ragi Dosa", 65));
+        v9.displayStreetInfo();
+
+        VVPuram v10 = new VVPuram(110, "Pooja", "Bangalore", new FoodStreet(210, "Mysore Pak", 50));
+        v10.displayStreetInfo();
+
+        VVPuram v11 = new VVPuram(111, "Sanjay", "Bangalore", new FoodStreet(211, "Jalebi", 45));
+        v11.displayStreetInfo();
+
+        VVPuram v12 = new VVPuram(112, "Divya", "Bangalore", new FoodStreet(212, "Kachori", 40));
+        v12.displayStreetInfo();
+
+        VVPuram v13 = new VVPuram(113, "Akash", "Bangalore", new FoodStreet(213, "Paneer Tikka", 120));
+        v13.displayStreetInfo();
+
+        VVPuram v14 = new VVPuram(114, "Lakshmi", "Bangalore", new FoodStreet(214, "Samosa", 25));
+        v14.displayStreetInfo();
+
+        VVPuram v15 = new VVPuram(115, "Rohit", "Bangalore", new FoodStreet(215, "Dahi Puri", 50));
+        v15.displayStreetInfo();
+
+        VVPuram v16 = new VVPuram(116, "Neha", "Bangalore", new FoodStreet(216, "Falooda", 70));
+        v16.displayStreetInfo();
+
+        VVPuram v17 = new VVPuram(117, "Karthik", "Bangalore", new FoodStreet(217, "Ice Cream", 60));
+        v17.displayStreetInfo();
+
+        VVPuram v18 = new VVPuram(118, "Deepa", "Bangalore", new FoodStreet(218, "Kulfi", 55));
+        v18.displayStreetInfo();
+
+        VVPuram v19 = new VVPuram(119, "Vikram", "Bangalore", new FoodStreet(219, "Badam Milk", 45));
+        v19.displayStreetInfo();
+
+        VVPuram v20 = new VVPuram(120, "Anil", "Bangalore", new FoodStreet(220, "Gulab Jamun", 40));
         v20.displayStreetInfo();
+
+        
     }
 }
