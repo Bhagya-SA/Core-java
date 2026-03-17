@@ -3,7 +3,12 @@ class Shop {
 	int shopId;
 	String shopName;
 	String shoapType;
-	
+
+	public Shop(int shopId, String shopName, String shopType) {
+        this.shopId = shopId;
+        this.shopName = shopName;
+        this.shopType = shopType;
+    }
 	
 	public void displayShopInfo() {
 	
