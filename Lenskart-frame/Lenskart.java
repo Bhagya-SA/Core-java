@@ -5,6 +5,14 @@ class Lenskart {
 	String material;
 	String lensType;
 	Frame frame;
+
+	public Lenskart(int id, double power, String material, String lensType, Frame frame) {
+        this.id = id;
+        this.power = power;
+        this.material = material;
+        this.lensType = lensType;
+        this.frame = frame;
+    }
 	
 	public void displayLenskartInfo() {
 		System.out.println("Id is : " + this.id);
