@@ -1,6 +1,6 @@
 class PeriodicTableExecutor {
     public static void main(String[] tables) {
-        PeriodicTable table1 = new PeriodicTable();
+        /*PeriodicTable table1 = new PeriodicTable();
         table1.tableId = 1;
         table1.tableName = "Modern Periodic Table";
         table1.discoveryLocation = "Germany";
@@ -238,6 +238,86 @@ class PeriodicTableExecutor {
         element20.elementName = "Calcium";
         element20.elementSymbol = "Ca";
         table20.element = element20;
-        table20.displayTableInfo();
+        table20.displayTableInfo();*/
+
+        Element e1 = new Element(101, "Hydrogen", "H");
+        PeriodicTable t1 = new PeriodicTable(1, "Modern Periodic Table", "Germany", 118, e1);
+        t1.displayTableInfo();
+
+        Element e2 = new Element(102, "Helium", "He");
+        PeriodicTable t2 = new PeriodicTable(2, "Modern Periodic Table", "Germany", 118, e2);
+        t2.displayTableInfo();
+
+        Element e3 = new Element(103, "Lithium", "Li");
+        PeriodicTable t3 = new PeriodicTable(3, "Modern Periodic Table", "Germany", 118, e3);
+        t3.displayTableInfo();
+
+        Element e4 = new Element(104, "Beryllium", "Be");
+        PeriodicTable t4 = new PeriodicTable(4, "Modern Periodic Table", "Germany", 118, e4);
+        t4.displayTableInfo();
+
+        Element e5 = new Element(105, "Boron", "B");
+        PeriodicTable t5 = new PeriodicTable(5, "Modern Periodic Table", "Germany", 118, e5);
+        t5.displayTableInfo();
+
+        Element e6 = new Element(106, "Carbon", "C");
+        PeriodicTable t6 = new PeriodicTable(6, "Modern Periodic Table", "Germany", 118, e6);
+        t6.displayTableInfo();
+
+        Element e7 = new Element(107, "Nitrogen", "N");
+        PeriodicTable t7 = new PeriodicTable(7, "Modern Periodic Table", "Germany", 118, e7);
+        t7.displayTableInfo();
+
+        Element e8 = new Element(108, "Oxygen", "O");
+        PeriodicTable t8 = new PeriodicTable(8, "Modern Periodic Table", "Germany", 118, e8);
+        t8.displayTableInfo();
+
+        Element e9 = new Element(109, "Fluorine", "F");
+        PeriodicTable t9 = new PeriodicTable(9, "Modern Periodic Table", "Germany", 118, e9);
+        t9.displayTableInfo();
+
+        Element e10 = new Element(110, "Neon", "Ne");
+        PeriodicTable t10 = new PeriodicTable(10, "Modern Periodic Table", "Germany", 118, e10);
+        t10.displayTableInfo();
+
+        Element e11 = new Element(111, "Sodium", "Na");
+        PeriodicTable t11 = new PeriodicTable(11, "Modern Periodic Table", "Germany", 118, e11);
+        t11.displayTableInfo();
+
+        Element e12 = new Element(112, "Magnesium", "Mg");
+        PeriodicTable t12 = new PeriodicTable(12, "Modern Periodic Table", "Germany", 118, e12);
+        t12.displayTableInfo();
+
+        Element e13 = new Element(113, "Aluminium", "Al");
+        PeriodicTable t13 = new PeriodicTable(13, "Modern Periodic Table", "Germany", 118, e13);
+        t13.displayTableInfo();
+
+        Element e14 = new Element(114, "Silicon", "Si");
+        PeriodicTable t14 = new PeriodicTable(14, "Modern Periodic Table", "Germany", 118, e14);
+        t14.displayTableInfo();
+
+        Element e15 = new Element(115, "Phosphorus", "P");
+        PeriodicTable t15 = new PeriodicTable(15, "Modern Periodic Table", "Germany", 118, e15);
+        t15.displayTableInfo();
+
+        Element e16 = new Element(116, "Sulfur", "S");
+        PeriodicTable t16 = new PeriodicTable(16, "Modern Periodic Table", "Germany", 118, e16);
+        t16.displayTableInfo();
+
+        Element e17 = new Element(117, "Chlorine", "Cl");
+        PeriodicTable t17 = new PeriodicTable(17, "Modern Periodic Table", "Germany", 118, e17);
+        t17.displayTableInfo();
+
+        Element e18 = new Element(118, "Argon", "Ar");
+        PeriodicTable t18 = new PeriodicTable(18, "Modern Periodic Table", "Germany", 118, e18);
+        t18.displayTableInfo();
+
+        Element e19 = new Element(119, "Potassium", "K");
+        PeriodicTable t19 = new PeriodicTable(19, "Modern Periodic Table", "Germany", 118, e19);
+        t19.displayTableInfo();
+
+        Element e20 = new Element(120, "Calcium", "Ca");
+        PeriodicTable t20 = new PeriodicTable(20, "Modern Periodic Table", "Germany", 118, e20);
+        t20.displayTableInfo();
     }
 }
