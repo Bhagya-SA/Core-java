@@ -221,5 +221,86 @@ class CCDExecutor {
         cf20.price = 180;
         c20.coffee = cf20;
         c20.displayCafeInfo();
+
+         Coffee coffee1 = new Coffee(201, "Cappuccino", 150);
+        CCD c1 = new CCD(101, "Rahul", "Bangalore", coffee1);
+        c1.displayCafeInfo();
+
+        Coffee coffee2 = new Coffee(202, "Espresso", 120);
+        CCD c2 = new CCD(102, "Anita", "Bangalore", coffee2);
+        c2.displayCafeInfo();
+
+        Coffee coffee3 = new Coffee(203, "Latte", 140);
+        CCD c3 = new CCD(103, "Kiran", "Bangalore", coffee3);
+        c3.displayCafeInfo();
+
+        Coffee coffee4 = new Coffee(204, "Mocha", 160);
+        CCD c4 = new CCD(104, "Sneha", "Bangalore", coffee4);
+        c4.displayCafeInfo();
+
+        Coffee coffee5 = new Coffee(205, "Cold Coffee", 130);
+        CCD c5 = new CCD(105, "Arjun", "Bangalore", coffee5);
+        c5.displayCafeInfo();
+
+        Coffee coffee6 = new Coffee(206, "Americano", 125);
+        CCD c6 = new CCD(106, "Meera", "Bangalore", coffee6);
+        c6.displayCafeInfo();
+
+        Coffee coffee7 = new Coffee(207, "Caramel Latte", 170);
+        CCD c7 = new CCD(107, "Ravi", "Bangalore", coffee7);
+        c7.displayCafeInfo();
+
+        Coffee coffee8 = new Coffee(208, "Vanilla Latte", 165);
+        CCD c8 = new CCD(108, "Priya", "Bangalore", coffee8);
+        c8.displayCafeInfo();
+
+        Coffee coffee9 = new Coffee(209, "Irish Coffee", 180);
+        CCD c9 = new CCD(109, "Manoj", "Bangalore", coffee9);
+        c9.displayCafeInfo();
+
+        Coffee coffee10 = new Coffee(210, "Hazelnut Coffee", 175);
+        CCD c10 = new CCD(110, "Pooja", "Bangalore", coffee10);
+        c10.displayCafeInfo();
+
+        Coffee coffee11 = new Coffee(211, "Filter Coffee", 90);
+        CCD c11 = new CCD(111, "Sanjay", "Bangalore", coffee11);
+        c11.displayCafeInfo();
+
+        Coffee coffee12 = new Coffee(212, "Black Coffee", 100);
+        CCD c12 = new CCD(112, "Divya", "Bangalore", coffee12);
+        c12.displayCafeInfo();
+
+        Coffee coffee13 = new Coffee(213, "Chocolate Coffee", 160);
+        CCD c13 = new CCD(113, "Akash", "Bangalore", coffee13);
+        c13.displayCafeInfo();
+
+        Coffee coffee14 = new Coffee(214, "Coconut Coffee", 155);
+        CCD c14 = new CCD(114, "Lakshmi", "Bangalore", coffee14);
+        c14.displayCafeInfo();
+
+        Coffee coffee15 = new Coffee(215, "Butterscotch Coffee", 170);
+        CCD c15 = new CCD(115, "Rohit", "Bangalore", coffee15);
+        c15.displayCafeInfo();
+
+        Coffee coffee16 = new Coffee(216, "Mint Coffee", 150);
+        CCD c16 = new CCD(116, "Neha", "Bangalore", coffee16);
+        c16.displayCafeInfo();
+
+        Coffee coffee17 = new Coffee(217, "Iced Latte", 165);
+        CCD c17 = new CCD(117, "Karthik", "Bangalore", coffee17);
+        c17.displayCafeInfo();
+
+        Coffee coffee18 = new Coffee(218, "Strawberry Coffee", 175);
+        CCD c18 = new CCD(118, "Deepa", "Bangalore", coffee18);
+        c18.displayCafeInfo();
+
+        Coffee coffee19 = new Coffee(219, "Honey Coffee", 160);
+        CCD c19 = new CCD(119, "Vikram", "Bangalore", coffee19);
+        c19.displayCafeInfo();
+
+        Coffee coffee20 = new Coffee(220, "Almond Coffee", 180);
+        CCD c20 = new CCD(120, "Anil", "Bangalore", coffee20);
+        c20.displayCafeInfo();
+    
     }
 }
