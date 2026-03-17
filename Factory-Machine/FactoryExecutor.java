@@ -1,7 +1,7 @@
 class FactoryExecutor {
     public static void main(String[] factory) {
         
-        Factory factory1 = new Factory();
+        /*Factory factory1 = new Factory();
         factory1.factoryId = 1;
         factory1.factoryName = "Alpha Factory";
         factory1.location = "Industrial Area 1";
@@ -258,6 +258,86 @@ class FactoryExecutor {
         machine20.machineName = "CNC Milling Machine";
         machine20.machineType = "Metalworking";
         factory20.machine = machine20;
-        factory20.displayFactoryInfo();
+        factory20.displayFactoryInfo();*/
+
+        Machine m1 = new Machine(101, "CNC Lathe", "Metalworking");
+        Factory f1 = new Factory(1, "Alpha Factory", "Industrial Area 1", 50, m1);
+        f1.displayFactoryInfo();
+
+        Machine m2 = new Machine(102, "Injection Molder", "Plastic");
+        Factory f2 = new Factory(2, "Beta Factory", "Industrial Area 2", 60, m2);
+        f2.displayFactoryInfo();
+
+        Machine m3 = new Machine(103, "3D Printer", "Prototyping");
+        Factory f3 = new Factory(3, "Gamma Factory", "Industrial Area 3", 70, m3);
+        f3.displayFactoryInfo();
+
+        Machine m4 = new Machine(104, "Drill Press", "Metalworking");
+        Factory f4 = new Factory(4, "Delta Factory", "Industrial Area 4", 80, m4);
+        f4.displayFactoryInfo();
+
+        Machine m5 = new Machine(105, "Welding Robot", "Automation");
+        Factory f5 = new Factory(5, "Epsilon Factory", "Industrial Area 5", 90, m5);
+        f5.displayFactoryInfo();
+
+        Machine m6 = new Machine(106, "Conveyor Belt", "Assembly Line");
+        Factory f6 = new Factory(6, "Zeta Factory", "Industrial Area 6", 55, m6);
+        f6.displayFactoryInfo();
+
+        Machine m7 = new Machine(107, "Press Machine", "Metalworking");
+        Factory f7 = new Factory(7, "Eta Factory", "Industrial Area 7", 65, m7);
+        f7.displayFactoryInfo();
+
+        Machine m8 = new Machine(108, "CNC Router", "Woodworking");
+        Factory f8 = new Factory(8, "Theta Factory", "Industrial Area 8", 75, m8);
+        f8.displayFactoryInfo();
+
+        Machine m9 = new Machine(109, "Laser Cutter", "Cutting");
+        Factory f9 = new Factory(9, "Iota Factory", "Industrial Area 9", 85, m9);
+        f9.displayFactoryInfo();
+
+        Machine m10 = new Machine(110, "Hydraulic Press", "Pressing");
+        Factory f10 = new Factory(10, "Kappa Factory", "Industrial Area 10", 95, m10);
+        f10.displayFactoryInfo();
+
+        Machine m11 = new Machine(111, "Assembly Robot", "Automation");
+        Factory f11 = new Factory(11, "Lambda Factory", "Industrial Area 11", 50, m11);
+        f11.displayFactoryInfo();
+
+        Machine m12 = new Machine(112, "Packaging Machine", "Packaging");
+        Factory f12 = new Factory(12, "Mu Factory", "Industrial Area 12", 60, m12);
+        f12.displayFactoryInfo();
+
+        Machine m13 = new Machine(113, "Paint Sprayer", "Painting");
+        Factory f13 = new Factory(13, "Nu Factory", "Industrial Area 13", 70, m13);
+        f13.displayFactoryInfo();
+
+        Machine m14 = new Machine(114, "Forklift", "Material Handling");
+        Factory f14 = new Factory(14, "Xi Factory", "Industrial Area 14", 80, m14);
+        f14.displayFactoryInfo();
+
+        Machine m15 = new Machine(115, "Extruder", "Plastic Processing");
+        Factory f15 = new Factory(15, "Omicron Factory", "Industrial Area 15", 90, m15);
+        f15.displayFactoryInfo();
+
+        Machine m16 = new Machine(116, "Grinding Machine", "Metalworking");
+        Factory f16 = new Factory(16, "Pi Factory", "Industrial Area 16", 55, m16);
+        f16.displayFactoryInfo();
+
+        Machine m17 = new Machine(117, "Vacuum Forming Machine", "Plastic");
+        Factory f17 = new Factory(17, "Rho Factory", "Industrial Area 17", 65, m17);
+        f17.displayFactoryInfo();
+
+        Machine m18 = new Machine(118, "Heat Press", "Textile");
+        Factory f18 = new Factory(18, "Sigma Factory", "Industrial Area 18", 75, m18);
+        f18.displayFactoryInfo();
+
+        Machine m19 = new Machine(119, "Rotary Kiln", "Ceramics");
+        Factory f19 = new Factory(19, "Tau Factory", "Industrial Area 19", 85, m19);
+        f19.displayFactoryInfo();
+
+        Machine m20 = new Machine(120, "CNC Milling Machine", "Metalworking");
+        Factory f20 = new Factory(20, "Upsilon Factory", "Industrial Area 20", 95, m20);
+        f20.displayFactoryInfo();
     }
 }
