@@ -2,7 +2,7 @@ class PCExecutor {
 
 	public static void main(String[] laptop) {
 
-		PC pc1 = new PC();
+		/*PC pc1 = new PC();
 		pc1.pcId = 111;
 		pc1.pcName = "Lenovo";
 		pc1.os = "Windows 10";
@@ -299,7 +299,87 @@ class PCExecutor {
 		hardware20.hardwareType = "Graphics Card";
 		hardware20.price = 60000;
 		pc20.hardware = hardware20;
-		pc20.displayPCInfo();
+		pc20.displayPCInfo();*/
+
+		Hardware h1 = new Hardware(121, "CPU", "Processor", 25000);
+        PC pc1 = new PC(111, "Lenovo", "Windows 10", "16 GB", "512 GB SSD", h1);
+        pc1.displayPCInfo();
+
+        Hardware h2 = new Hardware(122, "GPU", "Graphics Card", 30000);
+        PC pc2 = new PC(112, "Dell", "Windows 11", "8 GB", "256 GB SSD", h2);
+        pc2.displayPCInfo();
+
+        Hardware h3 = new Hardware(123, "RAM", "Memory", 8000);
+        PC pc3 = new PC(113, "HP", "Windows 10", "16 GB", "1 TB HDD", h3);
+        pc3.displayPCInfo();
+
+        Hardware h4 = new Hardware(124, "Motherboard", "Internal Component", 15000);
+        PC pc4 = new PC(114, "Asus", "Linux Ubuntu", "32 GB", "1 TB SSD", h4);
+        pc4.displayPCInfo();
+
+        Hardware h5 = new Hardware(125, "Power Supply", "Internal Component", 5000);
+        PC pc5 = new PC(115, "Acer", "Windows 10", "8 GB", "512 GB SSD", h5);
+        pc5.displayPCInfo();
+
+        Hardware h6 = new Hardware(126, "Keyboard", "Input Device", 2000);
+        PC pc6 = new PC(116, "Apple", "macOS", "16 GB", "512 GB SSD", h6);
+        pc6.displayPCInfo();
+
+        Hardware h7 = new Hardware(127, "GPU", "Graphics Card", 45000);
+        PC pc7 = new PC(117, "MSI", "Windows 11", "32 GB", "2 TB SSD", h7);
+        pc7.displayPCInfo();
+
+        Hardware h8 = new Hardware(128, "CPU", "Processor", 22000);
+        PC pc8 = new PC(118, "Dell Inspiron", "Windows 10", "16 GB", "1 TB HDD", h8);
+        pc8.displayPCInfo();
+
+        Hardware h9 = new Hardware(129, "Cooling Fan", "Internal Component", 3000);
+        PC pc9 = new PC(119, "Lenovo Legion", "Windows 11", "32 GB", "1 TB SSD", h9);
+        pc9.displayPCInfo();
+
+        Hardware h10 = new Hardware(130, "Motherboard", "Internal Component", 12000);
+        PC pc10 = new PC(120, "HP Pavilion", "Windows 10", "16 GB", "512 GB SSD", h10);
+        pc10.displayPCInfo();
+
+        Hardware h11 = new Hardware(131, "GPU", "Graphics Card", 50000);
+        PC pc11 = new PC(121, "Asus ROG", "Windows 11", "64 GB", "2 TB SSD", h11);
+        pc11.displayPCInfo();
+
+        Hardware h12 = new Hardware(132, "RAM", "Memory", 10000);
+        PC pc12 = new PC(122, "Acer Predator", "Windows 10", "32 GB", "1 TB SSD", h12);
+        pc12.displayPCInfo();
+
+        Hardware h13 = new Hardware(133, "Display", "Output Device", 35000);
+        PC pc13 = new PC(123, "Apple iMac", "macOS", "16 GB", "1 TB SSD", h13);
+        pc13.displayPCInfo();
+
+        Hardware h14 = new Hardware(134, "Keyboard", "Input Device", 2500);
+        PC pc14 = new PC(124, "MSI Modern", "Windows 11", "16 GB", "512 GB SSD", h14);
+        pc14.displayPCInfo();
+
+        Hardware h15 = new Hardware(135, "Touchpad", "Input Device", 1500);
+        PC pc15 = new PC(125, "Dell XPS", "Windows 11", "32 GB", "1 TB SSD", h15);
+        pc15.displayPCInfo();
+
+        Hardware h16 = new Hardware(136, "GPU", "Graphics Card", 28000);
+        PC pc16 = new PC(126, "HP Envy", "Windows 10", "16 GB", "512 GB SSD", h16);
+        pc16.displayPCInfo();
+
+        Hardware h17 = new Hardware(137, "CPU", "Processor", 20000);
+        PC pc17 = new PC(127, "Lenovo ThinkPad", "Windows 10", "16 GB", "1 TB HDD", h17);
+        pc17.displayPCInfo();
+
+        Hardware h18 = new Hardware(138, "RAM", "Memory", 7000);
+        PC pc18 = new PC(128, "Acer Swift", "Windows 10", "8 GB", "256 GB SSD", h18);
+        pc18.displayPCInfo();
+
+        Hardware h19 = new Hardware(139, "Motherboard", "Internal Component", 12000);
+        PC pc19 = new PC(129, "Asus Zenbook", "Windows 11", "16 GB", "512 GB SSD", h19);
+        pc19.displayPCInfo();
+
+        Hardware h20 = new Hardware(140, "GPU", "Graphics Card", 60000);
+        PC pc20 = new PC(130, "Apple MacBook Pro", "macOS", "32 GB", "1 TB SSD", h20);
+        pc20.displayPCInfo();
 
 	}
 }
