@@ -220,7 +220,7 @@ class BigDaddyExecutor {
         cassino20.location = "Las Vegas";
         cassino20.gamesAvailable = "Slots, Baccarat";
         cassino20.revenue = 89000;
-        bd20.cassino = cassino20; /*
+        bd20.cassino = cassino20; */
 
         Cassino cassino1 = new Cassino(301, "Goa", "Poker, Blackjack", 45000);
         BigDaddy bd1 = new BigDaddy(201, "Rafael", "Legendary", cassino1);
