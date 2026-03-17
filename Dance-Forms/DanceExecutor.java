@@ -2,7 +2,7 @@ class DanceExecutor {
 
 	public static void main(String[] dancing) {
 
-		Dance dance1 = new Dance();
+		/*Dance dance1 = new Dance();
 		dance1.danceId = 121;
 		dance1.danceName = "Bharatanatyam";
 		dance1.originCountry = "India";
@@ -239,7 +239,87 @@ class DanceExecutor {
 		form20.formName = "Latin";
 		form20.style = "Festival Dance";
 		dance20.form = form20;
-		dance20.displayDanceInfo();
+		dance20.displayDanceInfo(); */
+
+		Form f1 = new Form(143, "Classical", "Temple Dance");
+        Dance d1 = new Dance(121, "Bharatanatyam", "India", "Classical", f1);
+        d1.displayDanceInfo();
+
+        Form f2 = new Form(144, "Classical", "Storytelling");
+        Dance d2 = new Dance(122, "Kathak", "India", "Classical", f2);
+        d2.displayDanceInfo();
+
+        Form f3 = new Form(145, "Classical", "Dramatic Dance");
+        Dance d3 = new Dance(123, "Kuchipudi", "India", "Classical", f3);
+        d3.displayDanceInfo();
+
+        Form f4 = new Form(146, "Classical", "Dance Drama");
+        Dance d4 = new Dance(124, "Kathakali", "India", "Classical", f4);
+        d4.displayDanceInfo();
+
+        Form f5 = new Form(147, "Classical", "Graceful Dance");
+        Dance d5 = new Dance(125, "Odissi", "India", "Classical", f5);
+        d5.displayDanceInfo();
+
+        Form f6 = new Form(148, "Classical", "Feminine Dance");
+        Dance d6 = new Dance(126, "Mohiniyattam", "India", "Classical", f6);
+        d6.displayDanceInfo();
+
+        Form f7 = new Form(149, "Classical", "Devotional Dance");
+        Dance d7 = new Dance(127, "Manipuri", "India", "Classical", f7);
+        d7.displayDanceInfo();
+
+        Form f8 = new Form(150, "Latin", "Partner Dance");
+        Dance d8 = new Dance(128, "Salsa", "Cuba", "Latin", f8);
+        d8.displayDanceInfo();
+
+        Form f9 = new Form(151, "Street", "Freestyle");
+        Dance d9 = new Dance(129, "Hip Hop", "USA", "Street", f9);
+        d9.displayDanceInfo();
+
+        Form f10 = new Form(152, "Classical", "Graceful");
+        Dance d10 = new Dance(130, "Ballet", "Italy", "Classical", f10);
+        d10.displayDanceInfo();
+
+        Form f11 = new Form(153, "Street", "Power Moves");
+        Dance d11 = new Dance(131, "Breakdance", "USA", "Street", f11);
+        d11.displayDanceInfo();
+
+        Form f12 = new Form(154, "Modern", "Rhythmic");
+        Dance d12 = new Dance(132, "Tap Dance", "USA", "Modern", f12);
+        d12.displayDanceInfo();
+
+        Form f13 = new Form(155, "Folk", "Expressive");
+        Dance d13 = new Dance(133, "Flamenco", "Spain", "Folk", f13);
+        d13.displayDanceInfo();
+
+        Form f14 = new Form(156, "Latin", "Ballroom");
+        Dance d14 = new Dance(134, "Cha Cha", "Cuba", "Latin", f14);
+        d14.displayDanceInfo();
+
+        Form f15 = new Form(157, "Ballroom", "Smooth");
+        Dance d15 = new Dance(135, "Waltz", "Austria", "Ballroom", f15);
+        d15.displayDanceInfo();
+
+        Form f16 = new Form(158, "Ballroom", "Passionate");
+        Dance d16 = new Dance(136, "Tango", "Argentina", "Ballroom", f16);
+        d16.displayDanceInfo();
+
+        Form f17 = new Form(159, "Folk", "Group Dance");
+        Dance d17 = new Dance(137, "Garba", "India", "Folk", f17);
+        d17.displayDanceInfo();
+
+        Form f18 = new Form(160, "Folk", "Energetic");
+        Dance d18 = new Dance(138, "Bhangra", "India", "Folk", f18);
+        d18.displayDanceInfo();
+
+        Form f19 = new Form(161, "Folk", "Stick Dance");
+        Dance d19 = new Dance(139, "Kolkali", "India", "Folk", f19);
+        d19.displayDanceInfo();
+
+        Form f20 = new Form(162, "Latin", "Festival Dance");
+        Dance d20 = new Dance(140, "Samba", "Brazil", "Latin", f20);
+        d20.displayDanceInfo();
 
 	}
 }
