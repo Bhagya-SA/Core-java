@@ -2,7 +2,7 @@ class SalonExecutor {
 
     public static void main(String[] salons) {
 
-        Salon s1 = new Salon();
+        /*Salon s1 = new Salon();
         s1.salonId = 101;
         s1.customerName = "Rahul";
         s1.location = "Bangalore";
@@ -220,6 +220,107 @@ class SalonExecutor {
         se20.serviceName = "Hair Spa Premium";
         se20.price = 1200;
         s20.service = se20;
+        s20.displaySalonInfo();*/
+
+        Service se1 = new Service(201, "Hair Cut", 250);
+        Salon s1 = new Salon(101, "Rahul", "Bangalore", se1);
+        s1.displaySalonInfo();
+
+       
+        Service se2 = new Service(202, "Hair Styling", 400);
+        Salon s2 = new Salon(102, "Anita", "Bangalore", se2);
+        s2.displaySalonInfo();
+
+        
+        Service se3 = new Service(203, "Facial", 700);
+        Salon s3 = new Salon(103, "Kiran", "Bangalore", se3);
+        s3.displaySalonInfo();
+
+        
+        Service se4 = new Service(204, "Hair Coloring", 1200);
+        Salon s4 = new Salon(104, "Sneha", "Bangalore", se4);
+        s4.displaySalonInfo();
+
+        
+        Service se5 = new Service(205, "Beard Trim", 150);
+        Salon s5 = new Salon(105, "Arjun", "Bangalore", se5);
+        s5.displaySalonInfo();
+
+        
+        Service se6 = new Service(206, "Manicure", 500);
+        Salon s6 = new Salon(106, "Meera", "Bangalore", se6);
+        s6.displaySalonInfo();
+
+        
+        Service se7 = new Service(207, "Pedicure", 550);
+        Salon s7 = new Salon(107, "Ravi", "Bangalore", se7);
+        s7.displaySalonInfo();
+
+       
+        Service se8 = new Service(208, "Hair Spa", 900);
+        Salon s8 = new Salon(108, "Priya", "Bangalore", se8);
+        s8.displaySalonInfo();
+
+        
+        Service se9 = new Service(209, "Head Massage", 300);
+        Salon s9 = new Salon(109, "Manoj", "Bangalore", se9);
+        s9.displaySalonInfo();
+
+        
+        Service se10 = new Service(210, "Threading", 120);
+        Salon s10 = new Salon(110, "Pooja", "Bangalore", se10);
+        s10.displaySalonInfo();
+
+       
+        Service se11 = new Service(211, "Hair Wash", 200);
+        Salon s11 = new Salon(111, "Sanjay", "Bangalore", se11);
+        s11.displaySalonInfo();
+
+       
+        Service se12 = new Service(212, "Bridal Makeup", 5000);
+        Salon s12 = new Salon(112, "Divya", "Bangalore", se12);
+        s12.displaySalonInfo();
+
+        
+        Service se13 = new Service(213, "Shaving", 100);
+        Salon s13 = new Salon(113, "Akash", "Bangalore", se13);
+        s13.displaySalonInfo();
+
+        
+        Service se14 = new Service(214, "Hair Straightening", 2500);
+        Salon s14 = new Salon(114, "Lakshmi", "Bangalore", se14);
+        s14.displaySalonInfo();
+
+        
+        Service se15 = new Service(215, "Hair Smoothening", 3000);
+        Salon s15 = new Salon(115, "Rohit", "Bangalore", se15);
+        s15.displaySalonInfo();
+
+       
+        Service se16 = new Service(216, "Nail Art", 600);
+        Salon s16 = new Salon(116, "Neha", "Bangalore", se16);
+        s16.displaySalonInfo();
+
+        
+        Service se17 = new Service(217, "Hair Treatment", 1500);
+        Salon s17 = new Salon(117, "Karthik", "Bangalore", se17);
+        s17.displaySalonInfo();
+
+        
+        Service se18 = new Service(218, "Waxing", 800);
+        Salon s18 = new Salon(118, "Deepa", "Bangalore", se18);
+        s18.displaySalonInfo();
+
+       
+        Service se19 = new Service(219, "Beard Styling", 200);
+        Salon s19 = new Salon(119, "Vikram", "Bangalore", se19);
+        s19.displaySalonInfo();
+
+       
+        Service se20 = new Service(220, "Hair Spa Premium", 1200);
+        Salon s20 = new Salon(120, "Anil", "Bangalore", se20);
         s20.displaySalonInfo();
+
+        
     }
 }
