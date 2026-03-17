@@ -2,7 +2,7 @@ class ProgrammingLanguageExecutor {
 
     public static void main(String[] args) {
 
-        ProgrammingLanguage pl1 = new ProgrammingLanguage();
+        /*ProgrammingLanguage pl1 = new ProgrammingLanguage();
         pl1.languageId = 101;
         pl1.languageName = "Java";
         pl1.developer = "Sun Microsystems";
@@ -220,6 +220,10 @@ class ProgrammingLanguageExecutor {
         s20.syntaxName = "Print Statement";
         s20.example = "println()";
         pl20.syntax = s20;
-        pl20.displayProgrammingLanguageInfo();
+        pl20.displayProgrammingLanguageInfo();*/
+
+        
+
+        
     }
 }
