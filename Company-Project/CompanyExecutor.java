@@ -2,7 +2,7 @@ class CompanyExecutor {
 
     public static void main(String[] companies) {
 
-        Company company1 = new Company();
+       /* Company company1 = new Company();
         company1.companyId = 101;
         company1.companyName = "TechCorp";
         company1.location = "USA";
@@ -220,6 +220,86 @@ class CompanyExecutor {
         project20.projectName = "Next-Gen AI Platform";
         project20.projectType = "Technology";
         company20.project = project20;
-        company20.displayCompanyInfo();
+        company20.displayCompanyInfo(); */
+
+        Project p1 = new Project(201, "AI Development", "Research");
+        Company c1 = new Company(101, "TechCorp", "USA", p1);
+        c1.displayCompanyInfo();
+
+        Project p2 = new Project(202, "Infrastructure Upgrade", "Construction");
+        Company c2 = new Company(102, "BuildIt", "Germany", p2);
+        c2.displayCompanyInfo();
+
+        Project p3 = new Project(203, "Mobile Banking App", "Software");
+        Company c3 = new Company(103, "FinServe", "India", p3);
+        c3.displayCompanyInfo();
+
+        Project p4 = new Project(204, "Solar Plant Expansion", "Renewable Energy");
+        Company c4 = new Company(104, "GreenEnergy", "Norway", p4);
+        c4.displayCompanyInfo();
+
+        Project p5 = new Project(205, "Telemedicine Platform", "Healthcare");
+        Company c5 = new Company(105, "MediHealth", "UK", p5);
+        c5.displayCompanyInfo();
+
+        Project p6 = new Project(206, "Online Learning App", "Education");
+        Company c6 = new Company(106, "EduSmart", "Canada", p6);
+        c6.displayCompanyInfo();
+
+        Project p7 = new Project(207, "Electric Vehicle Development", "Automotive");
+        Company c7 = new Company(107, "AutoMotion", "Japan", p7);
+        c7.displayCompanyInfo();
+
+        Project p8 = new Project(208, "Sustainable Clothing Line", "Fashion");
+        Company c8 = new Company(108, "FashionHub", "Italy", p8);
+        c8.displayCompanyInfo();
+
+        Project p9 = new Project(209, "Organic Restaurant Chain", "Hospitality");
+        Company c9 = new Company(109, "Foodies", "France", p9);
+        c9.displayCompanyInfo();
+
+        Project p10 = new Project(210, "Satellite Launch Program", "Aerospace");
+        Company c10 = new Company(110, "SpaceXplore", "USA", p10);
+        c10.displayCompanyInfo();
+
+        Project p11 = new Project(211, "Blockchain Payment System", "Finance");
+        Company c11 = new Company(111, "FinTechPro", "Singapore", p11);
+        c11.displayCompanyInfo();
+
+        Project p12 = new Project(212, "IoT Home Devices", "Technology");
+        Company c12 = new Company(112, "SmartHome", "Germany", p12);
+        c12.displayCompanyInfo();
+
+        Project p13 = new Project(213, "Travel Booking App", "Tourism");
+        Company c13 = new Company(113, "TravelEase", "Australia", p13);
+        c13.displayCompanyInfo();
+
+        Project p14 = new Project(214, "Biodegradable Packaging", "Sustainability");
+        Company c14 = new Company(114, "EcoPack", "Sweden", p14);
+        c14.displayCompanyInfo();
+
+        Project p15 = new Project(215, "VR Gaming Platform", "Entertainment");
+        Company c15 = new Company(115, "GameSphere", "South Korea", p15);
+        c15.displayCompanyInfo();
+
+        Project p16 = new Project(216, "Smart Farming Solutions", "Agriculture");
+        Company c16 = new Company(116, "AgriGrow", "India", p16);
+        c16.displayCompanyInfo();
+
+        Project p17 = new Project(217, "Supply Chain Management", "Logistics");
+        Company c17 = new Company(117, "LogiTrack", "Netherlands", p17);
+        c17.displayCompanyInfo();
+
+        Project p18 = new Project(218, "Water Purification Systems", "Environmental");
+        Company c18 = new Company(118, "CleanWater", "Kenya", p18);
+        c18.displayCompanyInfo();
+
+        Project p19 = new Project(219, "Vaccine Development", "Healthcare");
+        Company c19 = new Company(119, "MediPharma", "Switzerland", p19);
+        c19.displayCompanyInfo();
+
+        Project p20 = new Project(220, "Next-Gen AI Platform", "Technology");
+        Company c20 = new Company(120, "TechNova", "USA", p20);
+        c20.displayCompanyInfo();
     }
 }
