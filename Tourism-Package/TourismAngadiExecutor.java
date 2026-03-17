@@ -2,7 +2,7 @@ class TourismAngadiExecutor {
 
     public static void main(String[] tourism) {
 
-        TourismAngadi t1 = new TourismAngadi();
+        /*TourismAngadi t1 = new TourismAngadi();
         t1.tourismId = 101;
         t1.touristName = "Rahul";
         t1.email = "rahul@gmail.com";
@@ -220,6 +220,88 @@ class TourismAngadiExecutor {
         p20.destination = "Mumbai";
         p20.price = 14000;
         t20.pkg = p20;
+        t20.displayTourismInfo();*/
+
+        Package p1 = new Package(201, "Goa", 15000);
+        TourismAngadi t1 = new TourismAngadi(101, "Rahul", "rahul@gmail.com", p1);
+        t1.displayTourismInfo();
+
+        Package p2 = new Package(202, "Kerala", 18000);
+        TourismAngadi t2 = new TourismAngadi(102, "Anita", "anita@gmail.com", p2);
+        t2.displayTourismInfo();
+
+        Package p3 = new Package(203, "Manali", 22000);
+        TourismAngadi t3 = new TourismAngadi(103, "Kiran", "kiran@gmail.com", p3);
+        t3.displayTourismInfo();
+
+        Package p4 = new Package(204, "Ooty", 12000);
+        TourismAngadi t4 = new TourismAngadi(104, "Sneha", "sneha@gmail.com", p4);
+        t4.displayTourismInfo();
+
+        Package p5 = new Package(205, "Kashmir", 30000);
+        TourismAngadi t5 = new TourismAngadi(105, "Arjun", "arjun@gmail.com", p5);
+        t5.displayTourismInfo();
+
+        Package p6 = new Package(206, "Coorg", 10000);
+        TourismAngadi t6 = new TourismAngadi(106, "Meera", "meera@gmail.com", p6);
+        t6.displayTourismInfo();
+
+        Package p7 = new Package(207, "Mysore", 9000);
+        TourismAngadi t7 = new TourismAngadi(107, "Ravi", "ravi@gmail.com", p7);
+        t7.displayTourismInfo();
+
+        Package p8 = new Package(208, "Darjeeling", 25000);
+        TourismAngadi t8 = new TourismAngadi(108, "Priya", "priya@gmail.com", p8);
+        t8.displayTourismInfo();
+
+        Package p9 = new Package(209, "Andaman", 35000);
+        TourismAngadi t9 = new TourismAngadi(109, "Manoj", "manoj@gmail.com", p9);
+        t9.displayTourismInfo();
+
+        Package p10 = new Package(210, "Jaipur", 14000);
+        TourismAngadi t10 = new TourismAngadi(110, "Pooja", "pooja@gmail.com", p10);
+        t10.displayTourismInfo();
+
+        Package p11 = new Package(211, "Agra", 13000);
+        TourismAngadi t11 = new TourismAngadi(111, "Sanjay", "sanjay@gmail.com", p11);
+        t11.displayTourismInfo();
+
+        Package p12 = new Package(212, "Shimla", 21000);
+        TourismAngadi t12 = new TourismAngadi(112, "Divya", "divya@gmail.com", p12);
+        t12.displayTourismInfo();
+
+        Package p13 = new Package(213, "Ladakh", 40000);
+        TourismAngadi t13 = new TourismAngadi(113, "Akash", "akash@gmail.com", p13);
+        t13.displayTourismInfo();
+
+        Package p14 = new Package(214, "Udaipur", 17000);
+        TourismAngadi t14 = new TourismAngadi(114, "Lakshmi", "lakshmi@gmail.com", p14);
+        t14.displayTourismInfo();
+
+        Package p15 = new Package(215, "Hyderabad", 11000);
+        TourismAngadi t15 = new TourismAngadi(115, "Rohit", "rohit@gmail.com", p15);
+        t15.displayTourismInfo();
+
+        Package p16 = new Package(216, "Pondicherry", 16000);
+        TourismAngadi t16 = new TourismAngadi(116, "Neha", "neha@gmail.com", p16);
+        t16.displayTourismInfo();
+
+        Package p17 = new Package(217, "Rishikesh", 20000);
+        TourismAngadi t17 = new TourismAngadi(117, "Karthik", "karthik@gmail.com", p17);
+        t17.displayTourismInfo();
+
+        Package p18 = new Package(218, "Varanasi", 15000);
+        TourismAngadi t18 = new TourismAngadi(118, "Deepa", "deepa@gmail.com", p18);
+        t18.displayTourismInfo();
+
+        Package p19 = new Package(219, "Delhi", 12000);
+        TourismAngadi t19 = new TourismAngadi(119, "Vikram", "vikram@gmail.com", p19);
+        t19.displayTourismInfo();
+
+        Package p20 = new Package(220, "Mumbai", 14000);
+        TourismAngadi t20 = new TourismAngadi(120, "Anil", "anil@gmail.com", p20);
         t20.displayTourismInfo();
+
+        
     }
 }
