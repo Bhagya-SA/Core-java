@@ -6,6 +6,15 @@ class PC {
 	String ramSize;
 	String storageSize;
 	Hardware hardware;
+
+	public PC(int pcId, String pcName, String os, String ramSize, String storageSize, Hardware hardware) {
+        this.pcId = pcId;
+        this.pcName = pcName;
+        this.os = os;
+        this.ramSize = ramSize;
+        this.storageSize = storageSize;
+        this.hardware = hardware;
+    }
 	
 	public void displayPCInfo() {
 	
