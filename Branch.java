@@ -1,2 +1,0 @@
-class Branch extends Bank {
-}

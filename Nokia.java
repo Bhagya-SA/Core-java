@@ -1,2 +1,0 @@
-class Nokia extends Android {
-}

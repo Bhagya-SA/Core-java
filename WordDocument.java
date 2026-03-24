@@ -1,2 +1,0 @@
-class WordDocument extends Document {
-}

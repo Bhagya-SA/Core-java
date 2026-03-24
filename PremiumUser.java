@@ -1,2 +1,0 @@
-class PremiumUser extends AccountHolder {
-}
