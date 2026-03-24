@@ -1,0 +1,2 @@
+class CoffeeMachine extends Machine {
+}

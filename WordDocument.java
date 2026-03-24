@@ -1,0 +1,2 @@
+class WordDocument extends Document {
+}

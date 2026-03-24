@@ -1,0 +1,2 @@
+class UPI extends Payment {
+}

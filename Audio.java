@@ -1,0 +1,2 @@
+class Audio extends Media {
+}

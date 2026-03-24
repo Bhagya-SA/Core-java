@@ -1,0 +1,2 @@
+class CreditCard extends Payment {
+}

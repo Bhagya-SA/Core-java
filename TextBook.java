@@ -1,0 +1,2 @@
+class TextBook extends Book {
+}

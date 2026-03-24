@@ -1,0 +1,2 @@
+class Androids extends Mobile {
+}

@@ -1,0 +1,2 @@
+class OnlineCourse extends Course {
+}

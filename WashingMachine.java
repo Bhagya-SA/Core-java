@@ -1,0 +1,2 @@
+class WashingMachine extends Appliance {
+}
