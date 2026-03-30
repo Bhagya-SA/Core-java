@@ -2,7 +2,7 @@ class RCBRunner {
 
     public static void main(String[] playerName) {
     
-        RCB rcb = new RCB();
+        Team rcb = new Team();
         
         rcb.addPlayerName("Virat Kohli");
         rcb.addPlayerName("Faf du Plessis");
@@ -21,6 +21,16 @@ class RCBRunner {
         rcb.addPlayerName("Suyash Prabhudessai");
         
         rcb.getPlayerNames();
-        
+		System.out.println("--------------------------------------------------------");
+		
+		System.out.println(rcb.getNameByIndex(10));
+		System.out.println("--------------------------------------------------------");
+		System.out.println(rcb.getIndexByName("Virat Kohli"));
+		System.out.println("--------------------------------------------------------");
+		
+		rcb.updatePlayerName("Dinesh Karthik" , "Karthik");
+        System.out.println("The updated player names is as follows :");
+		System.out.println("--------------------------------------------------------");
+		
     }
 }

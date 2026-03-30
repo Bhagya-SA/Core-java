@@ -25,6 +25,21 @@ class GoaRunner {
         beachName.addBeachName("Ashwem Beach");
         
         beachName.getBeachNames();
+		System.out.println("----------------------------------------------------");
+		
+		System.out.println(beachName.getBeachNameByIndex(7));
+		System.out.println("----------------------------------------------------");
+		
+		
+		System.out.println(beachName.getIndexByBeachName("Arambol Beach"));
+		System.out.println("----------------------------------------------------");
+		
+		
+		beachName.updateBeachName("Butterfly Beach" , "Butterfly");
+		System.out.println("The updated beach names is as follows");
+		beachName.getBeachNames();
+		System.out.println("----------------------------------------------------");
+		
         
     }
 }

@@ -22,6 +22,18 @@ class JioSavanRunner {
         jioMusic.addSongName("Srivalli - Pushpa");
 
         jioMusic.getSongNames();
+		System.out.println("----------------------------------------------------");
+		
+		System.out.println(jioMusic.getSongNameByIndex(13));
+		System.out.println("----------------------------------------------------");
+		
+		System.out.println(jioMusic.getIndexBySongName("Naguva Nayana - Pallavi Anu Pallavi"));
+		System.out.println("----------------------------------------------------");
+		
+		jioMusic.updateSongName("Naguva Nayana - Pallavi Anu Pallavi" , "Naguva Nayana");
+		System.out.println("The updated songs is as follows :");
+		jioMusic.getSongNames();
+		System.out.println("----------------------------------------------------");
         
     }
 }

@@ -33,6 +33,19 @@ class PhonePayRunner {
         phonepe.addInsuranceName("International Travel Insurance");
         
         phonepe.getInsuranceNames();
+		System.out.println("-----------------------------------------------------------------");
+		
+		System.out.println(phonepe.getNamebyIndex(11));
+		System.out.println("-----------------------------------------------------------------");
+		
+		System.out.println(phonepe.getIndexByName("Car Insurance"));
+		System.out.println("-----------------------------------------------------------------");
+		
+		phonepe.updateinsuranceName("Hospital Cash Plan" , "Hospital Plan");
+		System.out.println("The updated insurance names is as follows :");
+		phonepe.getInsuranceNames();
+		System.out.println("-----------------------------------------------------------------");
+		
         
     }
 }

@@ -32,6 +32,17 @@ class ECommerceWebsiteRunner {
         ew.addProductName("Gaming Chair");
         
         ew.getProductNames();
+		System.out.println("-------------------------------------------------------------------");
+		
+		System.out.println(ew.getNameByIndex(25));
+		System.out.println("-------------------------------------------------------------------");
+		
+		System.out.println(ew.getIndexByName("Printer"));
+		System.out.println("-------------------------------------------------------------------");
         
+		ew.updateProductName("Air Conditioner" , "AC");
+		System.out.println("The updated productNames is as follows : ");
+		ew.getProductNames();
+		System.out.println("-------------------------------------------------------------------");
     }
 }

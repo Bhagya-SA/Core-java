@@ -21,5 +21,34 @@ class CricBuz {
 	
 	for(String teamName : teamNames) System.out.println(teamName);
 	}
+	
+	public String getTeamNameByIndex(int index) {
+		String teamName = null;
+		if(index < teamNames.length) teamName = teamNames[index];
+		return teamName;
+	}
+	
+	public int getIndexByTeamName(String teamName) {
+		int i = 0; 
+		for(String name : teamNames) {
+			if(name == teamName) return i;
+			 
+			i++;
+		}
+		return -1;
+	}
+	
+	public boolean updateTeamName(String existingTeamName , String updatedTeamName) {
+		boolean isTeamNameUpdated = false;
+		for(int index = 0; index < teamNames.length; index++) {
+			if(teamNames[index] == existingTeamName) {
+				teamNames[index] = updatedTeamName;
+				isTeamNameUpdated = true;
+			}
+		}
+		return isTeamNameUpdated;
+	}
+	
+
 
 }

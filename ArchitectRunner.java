@@ -17,6 +17,19 @@ class ArchitectRunner {
         architect.addInteriorDesignName("Vintage");
         
         architect.getInteriorDesignNames();
+		System.out.println("-------------------------------------------------------");
+		
+		System.out.println(architect.getinteriorDesignNameByIndex(5));
+		System.out.println("-------------------------------------------------------");
+		
+		System.out.println(architect.getIndexByinteriorDesignName("Industrial"));
+		System.out.println("-------------------------------------------------------");
+		
+		architect.updateInteriorDesignName("Art Deco" , "Art");
+		System.out.println("The updated interior design names is as follows : ");
+		architect.getInteriorDesignNames();
+		System.out.println("-------------------------------------------------------");
+		
         
     }
 }

@@ -25,6 +25,19 @@ class TravelAgencyRunner {
         ta.addPlace("Rio de Janeiro");
         
         ta.getPlaces();
+		System.out.println("--------------------------------------------------------");
+		
+		System.out.println("The place which is at index 14 is : " + ta.getPlacesByIndex(14));
+		System.out.println("--------------------------------------------------------");
+		System.out.println("The index is : "+ ta.getIndexByPlace("Zurich") + " of place Zurich");
+		System.out.println("--------------------------------------------------------");
+		
+		
+		ta.updatePlace("Cape Town" , "Town");
+		System.out.println("The updated places is as folows:");
+		ta.getPlaces();
+		System.out.println("--------------------------------------------------------");
+		
     
     }
 }

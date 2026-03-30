@@ -21,5 +21,32 @@ class Museum {
 	
 	for(String historicalMonument : historicalMonuments) System.out.println(historicalMonument);
 	}
+	
+	public String getNameByIndex(int index){
+	
+		String historicalMonument = null;
+		if(index < historicalMonuments.length) historicalMonument = historicalMonuments[index];
+		return historicalMonument;
+	}
+	
+	public int getIndexByName(String historicalMonument){
+		int i = 0;
+		for(String name : historicalMonuments) {
+			if(name == historicalMonument) return i;
+			i++;
+		}
+		return -1;
+	}
+	
+	public boolean updateMonumentName(String existingMonumentName , String updatedMonumentName) {
+		boolean isMonumentUpdated = false;
+		for(int index = 0; index < historicalMonuments.length; index++) {
+			if(historicalMonuments[index] == existingMonumentName) {
+				historicalMonuments[index] = updatedMonumentName;
+				isMonumentUpdated = true;
+			}
+		}
+		return isMonumentUpdated;
+	}
 
 }

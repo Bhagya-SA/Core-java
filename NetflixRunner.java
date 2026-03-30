@@ -24,6 +24,18 @@ class NetflixRunner {
         netflix.addWebSeries("Black Mirror");
         
         netflix.getWebSeriesNames();
+		System.out.println("----------------------------------------------");
+		
+		System.out.println(netflix.getSeriesByIndex(5));
+		System.out.println("----------------------------------------------");
+		
+		System.out.println(netflix.getIndexBySeries("Narcos"));
+		System.out.println("----------------------------------------------");
+		
+		netflix.updateWebSeriesName("Money Heist" , "Money");
+		System.out.println("The updated webseries names is as follows :");
+		netflix.getWebSeriesNames();
+		System.out.println("----------------------------------------------");
         
     }
 }

@@ -25,5 +25,35 @@ class PhonePay {
 			System.out.println(insuranceName);
 		}
 	}
+	public String getNamebyIndex(int index) {
+		String insuranceName = null;
+		if(index < insuranceNames.length) insuranceName = insuranceNames[index];
+		return insuranceName;
+	}
+	
+	public int getIndexByName(String insuranceName) {
+		int index = 0;
+		for(String name : insuranceNames) {
+		if(name != null && !name.isEmpty()) {
+			if(name != insuranceName) index ++;
+			else break;
+		}
+		else {
+			System.out.println("No index found");
+		}
+		}
+		return index;
+	}
+	
+	public boolean updateinsuranceName(String existingInsuranceName , String updatedInsuranceName) {
+		boolean isInsuranceNameUpdated = false;
+		for(int index = 0; index < insuranceNames.length; index++) {
+			if(insuranceNames[index] == existingInsuranceName) {
+				insuranceNames[index] = updatedInsuranceName;
+				isInsuranceNameUpdated = true;
+			}
+		}
+		return isInsuranceNameUpdated ;
+	}
 
 }

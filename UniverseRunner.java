@@ -20,8 +20,24 @@ class UniverseRunner {
 		universe.addGalaxy("Centaurus A");
 		universe.addGalaxy("Messier 87");
 		universe.addGalaxy("NGC 1300");
+		universe.addGalaxy("MikyWay");
 		
 		universe.getGalaxies();
+		System.out.println("-------------------------------------------------------");
+		
+		
+		System.out.println(universe.getGalaxyByIndex(10));
+		System.out.println("-------------------------------------------------------");
+		
+		System.out.println(universe.getIndexByGalaxy("Tadpole"));
+		System.out.println("-------------------------------------------------------");
+		
+		universe.updateGalaxyName("MilkyWay" , "MilkWay");
+		System.out.println("The updated galaxies is as follows");
+		universe.getGalaxies();
+		System.out.println("-------------------------------------------------------");
+		
+		
 		
 		
 		

@@ -15,6 +15,20 @@ class GovernmentRunner {
         govtexam.addExam("UGC NET");
         
         govtexam.getExams();
+		System.out.println("---------------------------------------------------");
+		
+		System.out.println(govtexam.getExamByIndex(7));
+		System.out.println("---------------------------------------------------");
+		
+		System.out.println(govtexam.getIndexByExam("NDA"));
+		System.out.println("---------------------------------------------------");
+		
+		
+		govtexam.updateExamName("SSC CGL" , "SSC");
+		System.out.println("The updated exam names is as follows : ");
+		govtexam.getExams();
+		System.out.println("---------------------------------------------------");
+
         
     }
 }

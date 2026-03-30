@@ -23,4 +23,31 @@ class Netflix {
 			System.out.println(webSeriesName);
 		}
 	}
+	
+	public String getSeriesByIndex(int index){
+		String webSeriesName = null;
+		if(index < webSeriesNames.length) webSeriesName = webSeriesNames[index];
+		return webSeriesName;
+	}
+	
+	public int getIndexBySeries(String webSeriesName){
+		int i = 0;
+		for(String name : webSeriesNames) {
+			
+			if(name == webSeriesName) return i;
+			
+			i++;
+		}
+		return -1;
+	}
+	public boolean updateWebSeriesName(String existingSeriesName , String updateSeriesName) {
+		boolean isSeriesUpdated = false;
+		for(int index = 0; index < webSeriesNames.length; index++) {
+			if(webSeriesNames[index] == existingSeriesName) {
+				webSeriesNames[index] = updateSeriesName;
+				isSeriesUpdated = true;
+			}
+		}
+		return isSeriesUpdated;
+	}
 }

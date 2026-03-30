@@ -14,6 +14,18 @@ class CricBuzRunner {
         cricBuz.addTeamName("West Indies");
         
         cricBuz.getTeamNames();
+		System.out.println("---------------------------------------------------------");
+		
+		System.out.println(cricBuz.getTeamNameByIndex(3));
+		System.out.println("---------------------------------------------------------");
+		
+		System.out.println(cricBuz.getIndexByTeamName("Sri Lanka"));
+		System.out.println("---------------------------------------------------------");
+		
+		cricBuz.updateTeamName("India" , "Bharatha");
+		System.out.println("The updated team names is as follows : ");
+		cricBuz.getTeamNames();
+		System.out.println("---------------------------------------------------------");
         
     }
 }

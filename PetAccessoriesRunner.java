@@ -26,6 +26,22 @@ class PetAccessoriesRunner {
         petAccessories.addpetAccessoriesName("Pet Backpack");
         
         petAccessories.getpetAccessoriesNames();
+		System.out.println("------------------------------------------------------");
+		
+		System.out.println(petAccessories.getAccessoryByIndex(10));
+		System.out.println("------------------------------------------------------");
+		
+		System.out.println(petAccessories.getIndexByAccessory("Pet Shampoo"));
+		System.out.println("------------------------------------------------------");
+		
+		
+		petAccessories.updatePetAccessory("Grooming Brush" , "Groom Brush");
+		System.out.println("The updated pet accessories is as follows : ");
+		petAccessories.getpetAccessoriesNames();
+		System.out.println("------------------------------------------------------");
+		
+		
+		
         
     }
 }

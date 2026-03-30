@@ -21,5 +21,32 @@ class Architect {
 	
 	for(String interiorDesignName : interiorDesignNames) System.out.println(interiorDesignName);
 	}
+	
+	public String getinteriorDesignNameByIndex(int index) {
+		String interiorDesignName = null;
+		if(index < interiorDesignNames.length) interiorDesignName = interiorDesignNames[index];
+		return interiorDesignName;
+	}
+	
+	public int getIndexByinteriorDesignName(String interiorDesignName) {
+		int i = 0;
+		for(String interiorName : interiorDesignNames) {
+			if(interiorName == interiorDesignName) return i;
+			i++;
+		}
+		return -1;
+	}
+	
+	public boolean updateInteriorDesignName(String existingInteriorDesign , String updatedInteriorDesign) {
+		boolean isInteriorDesignNameUpdated = false;
+		for(int index = 0; index < interiorDesignNames.length; index++) {
+			if(interiorDesignNames[index] == existingInteriorDesign) {
+				interiorDesignNames[index] = updatedInteriorDesign;
+				isInteriorDesignNameUpdated = true;
+			}
+		}
+		return isInteriorDesignNameUpdated;
+		
+	}
 
 }

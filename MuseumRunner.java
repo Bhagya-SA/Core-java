@@ -22,8 +22,18 @@ class MuseumRunner {
         museum.addHistoricalMonument("Sanchi Stupa");
         
 		museum.getHistoricalMonuments();
+		System.out.println("------------------------------------------------------------");
 		
+		System.out.println(museum.getNameByIndex(8));
+		System.out.println("------------------------------------------------------------");
 		
+		System.out.println(museum.getIndexByName("India Gate"));
+		System.out.println("------------------------------------------------------------");
+		
+		museum.updateMonumentName("Ellora Caves" , "Ellora");
+		System.out.println("The updated Monuments is as follows : ");
+		museum.getHistoricalMonuments();
+		System.out.println("------------------------------------------------------------");
 		
 		
         

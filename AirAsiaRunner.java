@@ -36,6 +36,16 @@ class AirAsiaRunner {
         airAsia.addPassenger("Kriti Sharma");
         
         airAsia.getPassengers();
+		System.out.println("--------------------------------------------------------------");
+		
+		System.out.println(airAsia.getPassengerByIndex(25));
+		System.out.println("--------------------------------------------------------------");
+		System.out.println(airAsia.getIndexByPassenger("Yash Malhotra"));
+		System.out.println("--------------------------------------------------------------");
+		
+		airAsia.updatePassengerName("Yash Malhotra" , "Yash");
+		airAsia.getPassengers();
+		System.out.println("--------------------------------------------------------------");
         
     }
 }

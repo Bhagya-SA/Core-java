@@ -26,6 +26,19 @@ class ElectricalShopRunner {
         es.addAppliance("Electric Cooker");
         
         es.getAppliances();
+		System.out.println("-------------------------------------");
+		
+		
+		System.out.println(es.getApplianceNameByIndex(9));
+		System.out.println("-------------------------------------");
+		
+		System.out.println(es.getIndexByApplianceName("Television"));
+		System.out.println("-------------------------------------");
+		 
+		es.updateApplianceName("Mixer Grinder" , "Mixy");
+		System.out.println("The updated appliances name is as follows");
+		es.getAppliances();
+		System.out.println("-------------------------------------");
         
     }
 }

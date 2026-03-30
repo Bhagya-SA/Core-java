@@ -27,6 +27,17 @@ class WonderlaRunner {
         game.addGame("Boomerang Coaster");
         
         game.getGames();
+		System.out.println("-----------------------------------------------------");
+		
+		System.out.println(game.getGameByIndex(1));
+		System.out.println("-----------------------------------------------------");
+		
+		System.out.println(game.getIndexByGame("Boomerang Coaster"));
+		System.out.println("-----------------------------------------------------");
+		
+		game.updateGameName("Sky Wheel" , "Wheel Sky");
+		game.getGames();
+		System.out.println("-----------------------------------------------------");
         
     }
 }

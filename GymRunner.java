@@ -22,6 +22,18 @@ class GymRunner {
         gym.addEquipment("Medicine Ball");
         
         gym.getEquipmentNames();
+		System.out.println("-----------------------------------------------------");
+		
+		System.out.println(gym.getEquipmentByIndex(10));
+		System.out.println("-----------------------------------------------------");
+		
+		System.out.println(gym.getIndexByEquipment("Squat Rack"));
+		System.out.println("-----------------------------------------------------");
+		
+		gym.updateEquipmentName("Ab Roller" , "Roller");
+		System.out.println("The updated equipments is as follows :");
+		gym.getEquipmentNames();
+		System.out.println("-----------------------------------------------------");
         
     }
 }

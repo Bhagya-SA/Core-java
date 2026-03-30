@@ -25,4 +25,29 @@ class ECommerceWebsite {
 			System.out.println(productName);
 		}
 	}
+	
+	public String getNameByIndex(int index) {
+		String productName = null;
+		if(index < productNames.length) productName = productNames[index];
+		return productName;
+	}
+	public int getIndexByName(String productName) {
+		int i = 0;
+		for(String name : productNames) {
+			if(name == productName) return i;
+			i++;
+		}
+		return -1;
+	}
+	
+	public boolean updateProductName(String existingProductName , String updatedProductName) {
+		boolean isProductNameUpdated = false;
+		for(int index = 0; index < productNames.length ; index++) {
+			if(productNames[index] == existingProductName) {
+				productNames[index] = updatedProductName;
+				isProductNameUpdated = true;
+			}
+		}
+		return isProductNameUpdated;
+	}
 }
