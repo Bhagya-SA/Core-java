@@ -1,5 +1,0 @@
-class Team extends RCB {
-	
-	
-	
-}
